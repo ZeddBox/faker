@@ -16,7 +16,7 @@ I18n.reload! if I18n.backend.initialized?
 
 module Faker
   class Config
-    @locale = fr
+    @locale = nil
     @random = nil
 
     class << self
@@ -156,7 +156,7 @@ module Faker
         opts[:raise] = true
         I18n.translate(*args, **opts)
       rescue I18n::MissingTranslationData
-        opts[:locale] = :en
+        opts[:locale] = :fr
 
         # Super-simple fallback -- fallback to en if the
         # translation was missing.  If the translation isn't
