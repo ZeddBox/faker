@@ -16,7 +16,7 @@ I18n.reload! if I18n.backend.initialized?
 
 module Faker
   class Config
-    @locale = nil
+    @locale = fr
     @random = nil
 
     class << self
