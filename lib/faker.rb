@@ -156,7 +156,7 @@ module Faker
         opts[:raise] = true
         I18n.translate(*args, **opts)
       rescue I18n::MissingTranslationData
-        opts[:locale] = :fr
+        opts[:locale] = :en
 
         # Super-simple fallback -- fallback to en if the
         # translation was missing.  If the translation isn't
