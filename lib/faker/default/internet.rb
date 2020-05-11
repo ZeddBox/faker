@@ -12,7 +12,7 @@ module Faker
         if separators
           [username(specifier: name, separators: separators), domain_name(domain: domain)].join('@')
         else
-          [username(specifier: name), domain_name(domain: domain)].join('@')
+          [username(specifier: name), domain_name(domain: dfomain)].join('@')
         end
       end
 

@@ -1,21 +1,12 @@
+# Version FR de Faker
 
-![logotype a happy-07](https://user-images.githubusercontent.com/36028424/40263395-4318481e-5b44-11e8-92e5-3dcc1ce169b3.png)
+***
 
-# Faker
-[![Build Status](https://travis-ci.org/faker-ruby/faker.svg?branch=master)](https://travis-ci.org/faker-ruby/faker)
-[![Gem Version](https://badge.fury.io/rb/faker.svg)](https://badge.fury.io/rb/faker)
-[![Inline docs](https://inch-ci.org/github/faker-ruby/faker.svg?branch=master)](https://inch-ci.org/github/faker-ruby/faker)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ef54c7f9df86e965d64b/test_coverage)](https://codeclimate.com/github/stympy/faker/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ef54c7f9df86e965d64b/maintainability)](https://codeclimate.com/github/stympy/faker/maintainability)
-[![SemVer compatibility](https://api.dependabot.com/badges/compatibility_score?dependency-name=faker&package-manager=bundler&version-scheme=semver)](https://dependabot.com/compatibility-score.html?dependency-name=faker&package-manager=bundler&version-scheme=semver)
+Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
-This gem is a port of [Perl's Data::Faker library](https://metacpan.org/pod/Data::Faker) that generates fake data.
+La langue principale a été modifiée pour être le **français**. 
 
-It comes in very handy for taking screenshots (taking screenshots for my
-project, [Catch the Best](http://catchthebest.com/) was the original impetus
-for the creation of this gem), having real-looking test data, and having your
-database populated with more than one or two records while you're doing
-development.
+Le contenu a été grandement amélioré
 
 - [Faker](#faker)
     - [NOTE](#note)
@@ -42,84 +33,35 @@ development.
   - [License](#license)
 
 ### NOTE
-* While Faker generates data at random, returned values are not guaranteed to be unique by default.
-  You must explicitly specify when you require unique values, see [details](#ensuring-unique-values).
-  Values also can be deterministic if you use the deterministic feature, see [details](#deterministic-random)
-* This is the `master` branch of Faker and may contain changes that are not yet released.
-  Please refer the README of your version for the available methods.
-  List of all versions is [available here](https://github.com/stympy/faker/releases).
+* Faker génère des données aléatoires, il n'est pas garanti que les données soient uniques par défaut. 
+* Ceci est un fork de la version **2.11** de **Faker**, il est possible qu'un problème de compatibilité apparaisse un jour, n'hésitez pas à me contacter à ce moment là.
 
-## Installing
+## 💻 Installation 
 ```bash
 gem install faker
 ```
-Note: if you are getting a `uninitialized constant Faker::[some_class]` error, your version of the gem is behind the one documented here. To make sure that your gem is the one documented here, change the line in your Gemfile to:
+Afin de changer la langue principale et utiliser le contenu additionnel en français il faut saisir ceci dans le fichier **Gemfile**
 
 ```ruby
-gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'faker', :git => 'https://github.com/ZeddBox/faker.git', :branch => 'master'
 ```
 
-## Usage
+## 🖊 Usage
+
+Pour utiliser faker il faut saisir ceci dans vos pages **ruby**, **rails** ou **seeds**
+
 ```ruby
 require 'faker'
 
-Faker::Name.name      #=> "Christophe Bartell"
-
-Faker::Internet.email #=> "kirsten.greenholt@corkeryfisher.info"
-```
-
-### CLI
-Instructions are available in the [faker-bot README](https://github.com/faker-ruby/faker-bot).
-
-### Ensuring unique values
-Prefix your method call with `unique`. For example:
-```ruby
-Faker::Name.unique.name # This will return a unique name every time it is called
-```
-
-If too many unique values are requested from a generator that has a limited
-number of potential values, a `Faker::UniqueGenerator::RetryLimitExceeded`
-exception may be raised. It is possible to clear the record of unique values
-that have been returned, for example between tests.
-```ruby
-Faker::Name.unique.clear # Clears used values for Faker::Name
-Faker::UniqueGenerator.clear # Clears used values for all generators
-```
-
-You also can give some already used values to the unique generator if you have
-collisions with the generated data (i.e: using FactoryBot with random and
-manually set values).
-
-```ruby
-# Usage:
-# Faker::<generator>.unique.exclude(method, arguments, list)
-
-# Add 'azerty' and 'wxcvbn' to the string generator with 6 char length
-Faker::Lorem.unique.exclude :string, [6], %w[azerty wxcvbn]
-```
-
-### Deterministic Random
-Faker supports seeding of its pseudo-random number generator (PRNG) to provide deterministic output of repeated method calls.
-
-```ruby
-Faker::Config.random = Random.new(42)
-Faker::Company.bs #=> "seize collaborative mindshare"
-Faker::Company.bs #=> "engage strategic platforms"
-Faker::Config.random = Random.new(42)
-Faker::Company.bs #=> "seize collaborative mindshare"
-Faker::Company.bs #=> "engage strategic platforms"
-
-Faker::Config.random = nil # seeds the PRNG using default entropy sources
-Faker::Config.random.seed #=> 185180369676275068918401850258677722187
-Faker::Company.bs #=> "cultivate viral synergies"
+# exemple : 
+Faker::Name.name      #=> "Nathan Renaud"
+# exemple : 
+Faker::Internet.free_email #=> " A MEEEEEETTTREEEEE "
 ```
 
 ## Generators
-**NOTE: Some of the generators below aren't released yet. If you want to use them, change the line in your gemfile to:**
-
-```ruby
-gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
-```
+**NOTE : Lorsqu'il n'y a pas de contenu en français, le générateur passera automatiquement en Anglais.**
+**La liste complète du contenu Anglais est consultable sur la gem [Faker](https://github.com/faker-ruby/faker)**
 
 ### Default
   - [Faker::Address](doc/default/address.md)
@@ -316,55 +258,7 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'mast
   - [Faker::TvShows::TwinPeaks](doc/tv_shows/twin_peaks.md)
   - [Faker::TvShows::VentureBros](doc/tv_shows/venture_bros.md)
 
-## Customization
-Since you may want to make addresses and other types of data look different
-depending on where in the world you are (US postal codes vs. UK postal codes,
-for example), Faker uses the I18n gem to store strings (like state names) and
-formats (US postal codes are NNNNN while UK postal codes are AAN NAA),
-allowing you to get different formats by switching locales.  Just set
-Faker::Config.locale to the locale you want, and Faker will take care of the
-rest.
-
-If your locale doesn't already exist, create it in the `lib/locales` directory
-and you can then override or add elements to suit your needs. See more about how to
-use locales [here](lib/locales/README.md)
-
-```yaml
-en-au-ocker:
-  faker:
-    name:
-      # Existing faker field, new data
-      first_name:
-        - Charlotte
-        - Ava
-        - Chloe
-        - Emily
-
-      # New faker fields
-      ocker_first_name:
-        - Bazza
-        - Bluey
-        - Davo
-        - Johno
-        - Shano
-        - Shazza
-      region:
-        - South East Queensland
-        - Wide Bay Burnett
-        - Margaret River
-        - Port Pirie
-        - Gippsland
-        - Elizabeth
-        - Barossa
-```
-
-## Contributing
-See [CONTRIBUTING.md](https://github.com/stympy/faker/blob/master/CONTRIBUTING.md).
-
 ## Contact
-Comments and feedback are welcome. Send an email to Benjamin Curtis via the [google group](http://groups.google.com/group/ruby-faker).
-
-You can also join our [discord channel](https://discord.gg/RMumTwB) to discuss anything regarding improvements or feature requests.
-
-## License
-This code is free to use under the terms of the MIT license.
+N'hésitez pas à me contacter pour des commentaires ou problèmes. 
+Mon email : jul33anc@gmail.com
+Github : [ZeddBox](https://github.com/ZeddBox)
