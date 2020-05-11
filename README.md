@@ -47,9 +47,19 @@ Afin de changer la langue principale et utiliser le contenu additionnel en fran�
 gem 'faker', :git => 'https://github.com/ZeddBox/faker.git', :branch => 'master'
 ```
 
+Puis 
+
+```ruby
+bundle install
+```
+
+
+
+**❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
+
 ## 🖊 Usage
 
-Pour utiliser faker il faut saisir ceci dans vos pages **ruby**, **rails** ou **seeds**
+ Saisissez cette ligne dans vos apps **ruby**, **rails** ou db:**seeds**
 
 ```ruby
 require 'faker'
