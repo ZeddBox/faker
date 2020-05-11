@@ -59,6 +59,8 @@ bundle update #=> Permet de mettre à jour la gem lorsque le contenu s'aggrandit
 
 **❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
+
+
 ## 🖊 Usage
 
  Saisissez cette ligne dans vos apps **ruby**, **rails** ou db:**seeds**
