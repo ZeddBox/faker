@@ -51,6 +51,8 @@ Puis
 
 ```ruby
 bundle install
+
+bundle update #=> Permet de mettre à jour la gem lorsque le contenu s'aggrandit, bundle install 									ne suffit pas
 ```
 
 
