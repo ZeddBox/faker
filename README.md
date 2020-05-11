@@ -2,9 +2,9 @@
 
 ***
 
-## AVANCEMENT ENVIRON 20 %
+## AVANCEMENT ENVIRON 25 %
 
-![progress](https://progress-bar.dev/20/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/25/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
@@ -17,7 +17,8 @@ Le contenu a été grandement amélioré
   - [Installation](#installing)
   - [Usage](#usage)
   - [Générateur](#generators)
-    - [Default](#default)
+    
+    - [Général](#default)
     - [Blockchain](#blockchain)
     - [Books](#books)
     - [Creature](#creature)
@@ -28,10 +29,9 @@ Le contenu a été grandement amélioré
     - [Quotes](#quotes)
     - [Sports](#sports)
     - [Tv Shows](#tv-shows)
-  - [Customization](#customization)
-  - [Contributing](#contributing)
   - [Contact](#contact)
-  - [License](#license)
+
+    
 
 ### NOTE
 * Faker génère des données aléatoires, il n'est pas garanti que les données soient uniques par défaut. 
@@ -57,14 +57,14 @@ require 'faker'
 # exemple : 
 Faker::Name.name      #=> "Nathan Renaud"
 # exemple : 
-Faker::Internet.free_email #=> " A MEEEEEETTTREEEEE "
+Faker::Internet.free_email #=> "  "
 ```
 
 ## Generators
 **NOTE : Lorsqu'il n'y a pas de contenu en français, le générateur passera automatiquement en Anglais.**
 **La liste complète du contenu Anglais est consultable sur la gem [Faker](https://github.com/faker-ruby/faker)**
 
-### Default
+### Général
   - [Faker::Address](doc/default/address.md) - Adresses française
   - [Faker::Ancient](doc/default/ancient.md) - Mythologie Grecque
   - [Faker::Appliance](doc/default/appliance.md) - Grandes Marques et divers produits électroménager /  
