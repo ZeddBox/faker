@@ -6,6 +6,7 @@ fr:
       street_prefix: ["Allée, Voie", "Rue", "Avenue", "Boulevard", "Quai", "Passage", "Impasse", "Place"]
       secondary_address: ["Apt. ###", "# étage"]
       postcode: ["####0"]
+      state: ["Alsace", "Aquitaine", "Auvergne", "Basse-Normandie", "Bourgogne", "Bretagne", "Centre", "Champagne-Ardenne", "Corse", "Franche-Comté", "Guadeloupe", "Guyane", "Haute-Normandie", "Île-de-France", "La Réunion", "Languedoc-Roussillon", "Limousin", "Lorraine", "Martinique", "Mayotte", "Midi-Pyrénées", "Nord-Pas-de-Calais", "Pays de la Loire", "Picardie", "Poitou-Charentes", "Provence-Alpes-Côte d"Azur", "Rhône-Alpes"]
       state_abbr: ["##"]
       city_name: ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes", "Strasbourg", "Montpellier", "Bordeaux", "Lille", "Rennes", "Reims", "Le Havre", "Saint-Étienne", "Toulon", "Grenoble", "Dijon", "Angers", "Saint-Denis", "Villeurbanne", "Le Mans", "Aix-en-Provence", "Brest", "Nîmes", "Limoges", "Clermont-Ferrand", "Tours", "Amiens", "Metz", "Perpignan", "Besançon", "Orléans", "Boulogne-Billancourt", "Mulhouse", "Rouen", "Caen", "Nancy", "Saint-Denis", "Saint-Paul", "Montreuil", "Argenteuil", "Roubaix", "Dunkerque14", "Tourcoing", "Nanterre", "Avignon", "Créteil", "Poitiers", "Fort-de-France", "Courbevoie", "Versailles", "Vitry-sur-Seine", "Colombes", "Pau", "Aulnay-sous-Bois", "Asnières-sur-Seine", "Rueil-Malmaison", "Saint-Pierre", "Antibes", "Saint-Maur-des-Fossés", "Champigny-sur-Marne", "La Rochelle", "Aubervilliers", "Calais", "Cannes", "Le Tampon", "Béziers", "Colmar", "Bourges", "Drancy", "Mérignac", "Saint-Nazaire", "Valence", "Ajaccio", "Issy-les-Moulineaux", "Villeneuve-d'Ascq", "Levallois-Perret", "Noisy-le-Grand", "Quimper", "La Seyne-sur-Mer", "Antony", "Troyes", "Neuilly-sur-Seine", "Sarcelles", "Les Abymes", "Vénissieux", "Clichy", "Lorient", "Pessac", "Ivry-sur-Seine", "Cergy", "Cayenne", "Niort", "Chambéry", "Montauban", "Saint-Quentin", "Villejuif", "Hyères", "Beauvais", "Cholet"]
       city:
@@ -36,7 +37,7 @@ fr:
       fact: [
         "Chuck Norris ne ment pas, c'est la vérité qui se trompe.",
         "Chuck Norris est en couleur sur les photos Noir et Blanc.",
-        "Un jour Chuck Norris a dit "Va voir la-bas si j'y suis"... et il y était...",
+        "Un jour Chuck Norris a dit "Va voir la-bas si j'y suis... et il y était...",
         "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
         "Un aigle peut lire un journal à 1400 mètres de distance. Chuck Norris peut tourner la page.",
         "Chuck Norris est contre les radars automatiques : ça l'éblouit lorsqu'il fait du vélo.",

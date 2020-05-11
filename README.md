@@ -6,6 +6,8 @@
 
 ![progress](https://progress-bar.dev/25/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
+**❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
+
 Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
 La langue principale a été modifiée pour être le **français**. 
@@ -52,12 +54,9 @@ Puis
 ```ruby
 bundle install
 
-bundle update #=> Permet de mettre à jour la gem lorsque le contenu s'aggrandit, bundle install 									ne suffit pas
+bundle update #=> Permet de mettre à jour la gem lorsque le contenu s'aggrandit, bundle install
+              # ne suffit pas
 ```
-
-
-
-**❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
 
 
