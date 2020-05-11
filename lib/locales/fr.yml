@@ -20,9 +20,70 @@ fr:
         - "#{street_address}, #{zip_code} #{city}"
         - "#{secondary_address}, #{street_address}, #{zip_code} #{city}"
       default_country: [France]
+    
+    bank: 
+      name: ["Cetelem","Banque Populaire", "Banque Courtois", "Crédit Agricole", "Crédit Mutuel", "Crédit du Nord", "CIC", "Groupama Banque", "Société Générale", "BNP", "HSBC", "LCL"]
 
+    beer:
+      brand: ['Corona Extra', 'Heineken', 'Budweiser', 'Becks', 'BudLight', 'Pabst Blue Ribbon', 'Dos Equis', 'Blue Moon', 'Stella Artois', 'Miller Draft', 'Coors lite' , 'Amstel', 'Guinness', 'Kirin', 'Tsingtao', 'Sierra Nevada', 'Rolling Rock', 'Red Stripe', 'Paulaner', 'Patagonia', 'Delirium', 'Samuel Adams', 'Sapporo', 'Carlsberg', 'Pacifico', 'Quimes', 'Murphys', 'Birra Moretti', 'Harp', 'Fosters', 'Hoegaarden', 'Leffe', 'Lowenbrau']
+      name: ['Pliny The Elder', 'Founders Kentucky Breakfast', 'Trappistes Rochefort 10', 'HopSlam Ale', 'Stone Imperial Russian Stout', 'St. Bernardus Abt 12', 'Founders Breakfast Stout', 'Weihenstephaner Hefeweissbier', 'Péché Mortel', 'Celebrator Doppelbock', 'Duvel', 'Dreadnaught IPA', 'Nugget Nectar', 'La Fin Du Monde', 'Bourbon County Stout', 'Old Rasputin Russian Imperial Stout', 'Two Hearted Ale', 'Ruination IPA', 'Schneider Aventinus', 'Double Bastard Ale', '90 Minute IPA', 'Hop Rod Rye', 'Trappistes Rochefort 8', 'Chimay Grande Réserve', 'Stone IPA', 'Arrogant Bastard Ale', 'Edmund Fitzgerald Porter', 'Chocolate St', 'Oak Aged Yeti Imperial Stout', 'Ten FIDY', 'Storm King Stout', 'Shakespeare Oatmeal', 'Alpha King Pale Ale', 'Westmalle Trappist Tripel', 'Samuel Smith’s Imperial IPA', 'Yeti Imperial Stout', 'Hennepin', 'Samuel Smith’s Oatmeal Stout', 'Brooklyn Black', 'Oaked Arrogant Bastard Ale', 'Sublimely Self-Righteous Ale', 'Trois Pistoles', 'Bell’s Expedition', 'Sierra Nevada Celebration Ale', 'Sierra Nevada Bigfoot Barleywine Style Ale', 'Racer 5 India Pale Ale, Bear Republic Bre', 'Orval Trappist Ale', 'Hercules Double IPA', 'Maharaj', 'Maudite', 'Kirin Inchiban', 'Delirium Tremens', 'Delirium Noctorum', 'Sapporo Premium']
+      hop: ['Ahtanum', 'Amarillo', 'Bitter Gold', 'Bravo', 'Brewer’s Gold', 'Bullion', 'Cascade', 'Cashmere', 'Centennial', 'Chelan', 'Chinook', 'Citra', 'Cluster', 'Columbia', 'Columbus', 'Comet', 'Crystal', 'Equinox', 'Eroica', 'Fuggle', 'Galena', 'Glacier', 'Golding', 'Hallertau', 'Horizon', 'Liberty', 'Magnum', 'Millennium', 'Mosaic', 'Mt. Hood', 'Mt. Rainier', 'Newport', 'Northern Brewer', 'Nugget', 'Olympic', 'Palisade', 'Perle', 'Saaz', 'Santiam', 'Simcoe', 'Sorachi Ace', 'Sterling', 'Summit', 'Tahoma', 'Tettnang', 'TriplePearl', 'Ultra', 'Vanguard', 'Warrior', 'Willamette', 'Yakima Gol']
+      malt: ['Flocons de blé', 'Chocolate', 'Munich', 'Caramel', 'Biscuit', 'Chocolate malt', 'Pale', 'Aromatique', 'Malt de blé', 'Victory', 'Vienna', 'Orge']
+      style: ["IPA", "Pilsner", "Triple", "Belge", "Bock", "Blonde", "Ambrée", "Porter", "Lambic", "Blanche", "Monaco", "Bière d'Abbaye", "Stout"]
+
+    chuck_norris:
+      fact: [
+        "Chuck Norris ne ment pas, c'est la vérité qui se trompe.",
+        "Chuck Norris est en couleur sur les photos Noir et Blanc.",
+        "Un jour Chuck Norris a dit "Va voir la-bas si j'y suis"... et il y était...",
+        "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
+        "Un aigle peut lire un journal à 1400 mètres de distance. Chuck Norris peut tourner la page.",
+        "Chuck Norris est contre les radars automatiques : ça l'éblouit lorsqu'il fait du vélo.",
+        "Chuck Norris est mort depuis 10 ans, mais la Mort n'a pas encore trouvé le courage d'aller lui dire.",
+        "Chuck Norris est mort depuis 10 ans, mais la Mort n'a pas encore trouvé le courage d'aller lui dire.",
+        "Chuck Norris peut encercler ses ennemis. Tout seul.",
+        "Chuck Norris va régulièrement voir des matchs du PSG pour ne pas oublier ce qu'est la défaite.",
+        "Chuck Norris sait parler le braille.",
+        "Chuck Norris peut t'étrangler avec un téléphone sans fil.",
+        "Un jour Chuck Norris a eu un zéro en latin, depuis c'est une langue morte.",
+        "Quand Chuck Norris pisse face au vent, le vent préfère changer de direction.",
+        "Un film de Bruce Lee montre Chuck Norris se faire battre par Bruce Lee. C'est là l'effet spécial le plus cher de toute l'histoire du cinéma.",
+        "Quand Chuck Norris marche sur un râteau, le rateau se prend Chuck Norris dans la gueule.",
+        "Quand la tartine de Chuck Norris tombe, la confiture change de côté.",
+        "Chuck Norris n'a pas de père. On ne nique pas la mère de Chuck Norris.",
+        "Un jour, les PowerRangers ont rencontré Chuck Norris. Maintenant on les appelle les Télétubbies.",
+        "Chuck Norris peut applaudir d'une seule main.",
+        "Chuck Norris sait où se trouve Ornicar.",
+        "Chuck Norris peut diviser par zéro.",
+        "Chuck Norris a déjà été sur Mars, c'est pour cela qu'il n'y a pas de signes de vie là bas.",
+        "Chuck Norris aime la vie. Une chance pour elle.",
+        "Chuck Norris a déjà frôlé la mort....elle ne s'en est jamais remise.","Pour certains hommes le testicule gauche est plus large que le testicule droit, chez Chuck Norris, chaque testicule est plus large que l'autre."]
+
+    coffee:
+      country: ["Brésil", "Colombie", "Sumatra", "Ethiopie", "Honduras", "Kenya", "Uganda", "Mexique", "Guatemala", "Nicaragua", "Costa Rica", "Tanzanie", "Salvador", "Rwanda", "Burundi", "Panama", "Yemen", "Inde"]
+      variety: ["Affogato", "Latte", "Vanilla Latte", "Cappuccino", "Ristretto", "Americano", "Flat White", "Latte Macchiatto", "Turc", "Expresso", "Long"]
+      intensifier: ["muet", "terne", "doux", "structuré", "équilibré", "arrondi", "doux", "faible", "délicat", "sec", "astringent", "rapide" , "propre", "net", "brillant", "vibrant", "acidulé", "sauvage", "déséquilibré", "net", "pointu", "dense", "profond", "complexe", " juteux "," persistant "," sale "]
+      body: ["aqueux", "semblable à du thé", "soyeux", "lisse", "juteux", "lisse", "sirupeux", "rond", "crémeux", "plein", "velouté", " grand "," moelleux "," enrobage "]
+      descriptor: ["bergamote", "houblon", "thé noir", "thé vert", "menthe", "sauge", "aneth", "herbeux", "pois mange-tout", "pois sucré", " champignon "," courge "," poivron vert "," olive "," légumes-feuilles "," foin "," tabac "," cèdre "," bois frais "," terre "," tomate "," tomate séchée " , "sauce soja", "coriace", "clou de girofle", "réglisse", "curry", "muscade", "gingembre", "corriandre", "cannelle", "poivre blanc", "poivre noir", "carbone "," fumé "," sucre brûlé "," pain grillé "," pain frais "," orge "," blé "," seigle "," biscuit graham "," granola "," amande "," noisette "," noix de pécan ar"," noix de cajou "," arachide "," noix "," cola "," mélasse "," sirop d'érable "," carmel "," cassonade "," canne à sucre "," guimauve "," crème ", "beurre", "miel", "nougat", "vanille", "chocolat au lait", "poudre de cacao", "chocolat aigre-doux", "chocolat boulanger", "éclats de cacao", "pruneau", "dattes", " figues "," raisin sec "," raisin doré "," cassis "," groseille rouge "," myrtille "," fraise "," framboise "," canneberge "," cerise noire "," cerise "," prune " , "abricot", "nectarine", "peac h "," noix de coco "," banane "," kiwi "," mangue "," papaye "," ananas "," fruit de la passion "," tamarin "," fruit étoilé "," litchi "," raisin concord ", "raisin rouge", "raisin vert", "raisin blanc", "cantaloup", "miellat", "pastèque", "pomme rouge", "pomme verte", "orange", "mandarine", "mandarine", " clémentine "," pamplemousse "," citron vert "," meyer lemon "," lemonade "," lemon "," orange creamsicle "," marzipan "," nutella "," citronnelle "," orange blossom "," jasmine ", "chèvrefeuille", "magnolia", "lavande", "cynorrhodon", "hibiscus", "verveine citronnée", "médicinal", "quakery", "baggy", "défaut de pomme de terre!", "moisi", "caoutchouc"]
+      notes: "#{intensifier}, #{body}, #{descriptor}, #{descriptor}, #{descriptor}"
+
+    coin:
+      flip:
+        - Pile
+        - Face
+        
     color:
       name: ["rouge", "vert", "bleu", "jaune", "violet", "vert menthe", "bleu sarcelle", "blanc", "noir", "orange", "rose", "gris", "marron", "turquoise", "brun", "bleu ciel", "saumon", "prune", "orchidée", "olive", "magenta", "vert citron", "ivoire", "indigo", "or", "fuchsia", "cyan", "azur", "lavande", "argent"]
+
+    commerce:
+      department: ["Livres", "Films", "Musique", "Jeux", "Electronique", "Ordinateurs", "Maison", "Jardin", "Outils", "Epicerie", "Santé", "Beauté" , "Jouets", "Enfants", "Bébé", "Vêtements", "Chaussures", "Bijoux", "Sports", "Extérieur", "Automobile", "Industriel"]
+      product_name:
+        adjective: [Petit, Ergonomique, Rustique, Intelligent, Magnifique, Incroyable, Fantastique, Pratique, Élégant, Génial, Énorme, Médiocre, Synergique, Robuste, Léger, Aérodynamique, Durable]
+        material: [Acier, Bois, Béton, Plastique, Coton, Granit, Caoutchouc, Cuir, Soie, Laine, Lin, Marbre, Fer, Bronze, Cuivre, Aluminium, Papier]
+        product: [Chaise, Voiture, Ordinateur, Gants, Pantalon, Chemise, Table, Chaussures, Chapeau, Assiette, Couteau, Bouteille, Manteau, Lampe, Clavier, Sac, Banc, Horloge, Montre, Portefeuille]
+      promotion_code:
+        adjective: ['Amazing', 'Awesome', 'Cool', 'Good', 'Great', 'Incredible', 'Killer', 'Premium', 'Special', 'Stellar', 'Sweet']
+        noun: ['Code', 'Deal', 'Discount', 'Price', 'Promo', 'Promotion', 'Sale', 'Savings']
 
     compass:
       cardinal:
@@ -58,9 +119,77 @@ fr:
       name:
         - "#{Name.last_name} #{suffix}"
         - "#{Name.last_name} et #{Name.last_name}"
+      industry: ["Défense et espace", "Matériel informatique", "Logiciels", "Réseaux informatiques", "Internet", "Télécommunications", "Cabinet d'avocats", "Services juridiques", "Conseils en gestion", "Biotechnologie", "Pratique médicale", "Hôpital et soins de santé "," Produits pharmaceutiques", "Vétérinaire", "Dispositifs médicaux", "Cosmétiques", "Vêtements et mode", "Articles de sport", "Tabac", "Supermarchés" , "Production alimentaire", "Electronique grand public", "Biens de consommation", "Meubles", "Vente au détail", "Divertissement", "Jeux et casinos", "Loisirs, voyages et tourisme", "Hôtellerie", "Restaurants", "Sports", "Alimentation et boissons", "Médias audiovisuels", "Musées et institutions", "Beaux-arts", "Arts du spectacle", "Installations et services récréatifs", "Banque", "Assurance", "Services financiers", "Immobilier", "Banque d'investissement" , "Investment Management", "Accounting", "Construction", "Building Materials", "Architecture & Planning", "Civil Engineering", "Aviation & Aerospace", "Automotive", "Chemicals", "Machinery", "Mining Et métaux "," Pétrole et énergie","Construction navale","Services publics","Textiles","Papier et produits forestiers "," Fabrication de chemins de fer "," Agriculture ","Ranching","Produits laitiers","Pêche", "Enseignement primaire / secondaire", "Enseignement supérieur", "Gestion de l'éducation", "Recherche", "Militaire", "Bureau législatif", "Judiciaire", "Affaires internationales", "Administration gouvernementale", "Bureau exécutif", "Sécurité publique", "Politique publique", "Marketing et publicité", "Journaux", "Édition", "Impression", "Services d'information", "Bibliothèques", "Services environnementaux", "Développement de programmes", "Rédaction et révision", "Recrutement", "Philanthropie", "E-Apprentissage","Vente en gros","Importation et exportation","Génie mécanique ou industriel","Photographie"]
+      buzzwords: 
+        - ["["Adaptatif", "Avancé", "Amélioré", "Automatisé", "Équilibré", "Professionnel", "Centralisé", "Compatible", "Configurable", "Multiplateforme","Axé sur le client","Personnalisable","Décentralisé","Numérique", "Ergonomique", "Exclusif", "Entièrement configurable", "Fonctionnel", "Fondamental",  "Innovant", "Intuitif", "OpenSource", "PeProactif" ]
+      type: ["Entreprise Publique", "Institution", "Entreprise unipersonnelle", "Agence gouvernementale", "Société à but non lucratif", "Entreprise privée", "Partenariat"]
+      profession: ["professeur", "acteur", "musicien", "philosophe", "écrivain", "médecin", "comptable", "agriculteur", "architecte", "économiste", "ingénieur", "interprète", "avocat","avocat","bibliothécaire","statisticien","ressources humaines","pompier","juge","officier de police","astronome","biologiste","chimiste","physicien" , "programmeur", "développeur web", "designer", "actrice", "contrôleur de la circulation aérienne", "artiste", "avocat", "banquier", "barman", "barbier", "comptable", "constructeur" "," homme d'affaires","boucher","menuisier","caissier","chef","coach","dentiste","hygiéniste dentaire"," développeur "," diététicien "," éditeur ","électricien" , "ouvrier d'usine", "agriculteur", "pêcheur", "jardinier", "coiffeur", "journaliste", "avocat", "conférencier", "maître nageur", "mécanicien", "modèle", "lecteur de nouvelles", "infirmière", "opticien", "peintre", "pharmacien", "photographe", "pilote", "plombier", "politicien", "facteur", "réceptionniste", "scientifique", "secrétaire", "boutique" assistant "," soldat "," tailleur "," chauffeur de taxi "," traducteur ", "agent de la circulation", "agent de voyages", "vétérinaire", "serveur", "nettoyeur de vitres"]
+
+    construction:   
+      heavy_equipment: [
+         "Excavatrice",
+         "Tractopelle",
+         "Bulldozer",
+         "Niveleuse",
+         "Trancheuse",
+         "Grattoir",
+         "Tombereau",
+         "Compacteur",
+         "Dragline"
+       ]
+      materials: [
+        "Aluminium",
+         "Laiton",
+         "Verre",
+         "Granit",
+         "Plastique",
+         "Plexiglas",
+         "Caoutchouc",
+         "Acier",
+         "Calcul",
+         "Vinyle",
+         "Bois"
+      ]
+      subcontract_categories: [
+         "Entreprise générale",
+         "Couvreur",
+         "Plaquiste",
+         "Alarme électrique et incendie",
+         "Électrique",
+         "Menuiserie",
+         "Revêtement de sol époxy",
+         "Signalisation extérieure",
+         "Aménagement paysager et irrigation",
+         "Maçonnerie et préfabriqué",
+         "Maçonnerie",
+         "Garde-corps ornementaux",
+         "Portes sectionnelles",
+         "Peinture",
+         "Plomberie"
+      ]
+      roles: [
+         "Directeur de la construction",
+         "Chiffreur",
+         "Architecte",
+         "Superviseur",
+         "Ouvrier du batiment",
+         "Ingénieur",
+         "Électricien",
+         "Contremaître de construction",
+         "Sous-traitant",
+         "Gestionnaire de projet",
+      ]
 
     demographic:
+      race: ["Amérindien ou originaire de l'Alaska", "Asiatique", "Noir ou afro-américain", "Amérindien hawaïen ou autre insulaire du Pacifique", "Blanc"]
+      demonym: ["Afghan", "Albanais", "Algérien", "Américain", "Andorran", "Angolais", "Argentin", "Arménien", "Aroumain", "Aruban", "Australien", "Autrichien", " Azerbaïdjanais ","Bahamien ","Bahreïni "," bangladais "," barbadien "," basotho "," basque "," biélorusse "," belge "," bélizien "," bermudien "," bissau-guinéen "," Boer "," bosniaque "," brésilien "," breton "," britannique "," British Virgin Islander "," bruneian "," bulgare "," burkinabè "," burundais "," cambodgien "," camerounais "," Canadien "," catalan "," cap-verdien "," tchadien "," chilien "," chinois "," colombien "," comorien "," congolais "," croate "," cubain "," chypriote "," tchèque "," Danois "," dominicain "," néerlandais "," est-timorais "," équatorien "," égyptien "," émirati "," anglais "," érythréen "," estonien "," éthiopien "," insulaire des îles Falkland " "," Féroïen "," finnois "," fidjien "," philippin "," français "," géorgien "," allemand "," ghanéen "," Gibraltar "," grec "," grenadien "," guatémaltèque ", "Guyane française", "Guinéenne", "Guyanaise", "Haïtienne", "Hondurienne", "Hong Konger", "Hongroise", "Islandaise", "I-Kiribati", "Indienne", "Indonésienne", "Iranienne "," Irakien "," irlandais "," israélien "," italien "," Ivoirien "," jamaïcain "," japonais "," jordanien "," kazakh "," kenyan "," coréen "," kosovar "," kurde "," koweïtien "," kirghize "," lao ", "Letton", "Libanais", "Libérien", "Libyen", "Liechtenstein", "Lituanien", "Luxembourgeois", "Macanais", "Macédonien", "Malgache", "Malaisien", "Malawien", "Maldivien "," Malien "," maltais "," mannois "," mauricien "," mexicain "," moldave "," marocain "," mongol "," monténégrin "," namibien "," népalais "," néo-zélandais " , "Nicaraguayen", "Nigérien", "Nigérian", "Norvégien", "Pakistanais", "Palauan", "Palestinien", "Panaméen", "Papouasie-Nouvelle-Guinée", "Paraguayen", "Péruvien", "Pôle" , "Portugais", "portoricain", "québécois", "roumain", "Russe", "Rwandais", "Salvadorien", "São Toméan", "Saoudien", "Ecossais", "Sénégalais", "Serbe" , "Sierra léonais", "Singapourien", "Sindhien", "Slovaque", "Slovène" "Somalilander", "Sud-Africain", "Espagnol", "Sri Lankais", "St Lucien", "Soudanais","Surinamais"," Suédois","Suisse","Syriaque","Syrien","Tadjik","Taïwanais","Tanzanien","Thaïlandais","Tibétain","Tobagonien","Trinidadien" , "Tunisien", "Turc", "Tuvaluan", "Ougandais" , "Ukrainien", "Uruguayen", "Ouzbek", "Vanuatuan", "Vénézuélien", "Vietnamien", "Gallois", "Yéménite", "zambien", "Zimbabwéen"]
+      educational_attainment: ["Aucune scolarité terminée", "École maternelle", "Jardin d'enfants", "1ère", "Terminale sans diplome", "Diplôme d'études secondaires régulier", "BTS", "DEUG", "Bachelor", "Baccalauréat", "Master", "Diplôme professionnel", "Diplôme de doctorat"]
+      marital_status: ["Marié", "Veuf", "Divorcé", "Séparé", "Jamais marié"]
       sex: ["Homme", "Femme"]
+
+    dessert:
+      variety: ["Cake", "Cookie", "Tarte", "Crème Glacée", "Pudding", "Pain Perdu", "Cupcake", "Cheesecake", "Brownie", "Tourte", "Doughnut", "Yaourt Glacé", "Parfait", "Sundae", "Chocolatine", "Gateau à la banane", "Carrot Cake", "Couronne des rois", "Gateau basque", "Chouquette","Forêt Noire", "Mousse au chocolat"]
+      flavor: ["Vanille", "Chocolat", "Fraise", "Gâteau d'anniversaire", "Caramel au beurre salé", "Banane", "Beurre de noix de pécan", "Cookies 'n Cream", "Caramel", "Pomme", "Caramel écossais" , "Pépites de chocolat à la menthe", "Espresso", "Beurre de noix de pécan", "Cerise", "Noix de coco", "Pâte à biscuits aux pépites de chocolat", "Vanille française", "Napolitaine", "Pistache", " Beurre d'arachide "," Amande "," Thé vert "," Cheesecake"," Citron "," Nutella "]
 
     internet:
       free_email: [gmail.com, yahoo.fr, hotmail.fr]

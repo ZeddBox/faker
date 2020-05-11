@@ -1,16 +1,16 @@
 # Faker::Commerce
 
 ```ruby
-Faker::Commerce.color #=> "lavender"
+Faker::Commerce.color #=> "Violet"
 
 # Keyword arguments: max, fixed_amount
-Faker::Commerce.department #=> "Grocery, Health & Beauty"
-Faker::Commerce.department(max: 5) #=> "Grocery, Books, Health & Beauty"
-Faker::Commerce.department(max: 2, fixed_amount: true) #=> "Books & Tools"
+Faker::Commerce.department #=> "Epicerie, Santé & Beauté"
+Faker::Commerce.department(max: 5) #=> "Epicerie, Santé, Beauté & Bijoux"
+Faker::Commerce.department(max: 2, fixed_amount: true) #=> "Livres & Outils"
 
-Faker::Commerce.material #=> "Plastic"
+Faker::Commerce.material #=> "Plastique"
 
-Faker::Commerce.product_name #=> "Practical Granite Shirt"
+Faker::Commerce.product_name #=> "Petit banc en bois"
 
 # Produces a Float by default
 # Keyword arguments: range, as_string

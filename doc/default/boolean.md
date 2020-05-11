@@ -1,7 +1,5 @@
 # Faker::Boolean
 
-Available since version 1.6.2.
-
 ```ruby
 Faker::Boolean.boolean #=> true
 

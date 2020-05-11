@@ -2,20 +2,21 @@
 
 ***
 
+## AVANCEMENT ENVIRON 20 %
+
+![progress](https://progress-bar.dev/20/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+
 Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
 La langue principale a été modifiée pour être le **français**. 
 
 Le contenu a été grandement amélioré
 
-- [Faker](#faker)
-    - [NOTE](#note)
-  - [Installing](#installing)
+- Sommaire
+  - [NOTE](#note)
+  - [Installation](#installing)
   - [Usage](#usage)
-    - [CLI](#cli)
-    - [Ensuring unique values](#ensuring-unique-values)
-    - [Deterministic Random](#deterministic-random)
-  - [Generators](#generators)
+  - [Générateur](#generators)
     - [Default](#default)
     - [Blockchain](#blockchain)
     - [Books](#books)
@@ -64,37 +65,28 @@ Faker::Internet.free_email #=> " A MEEEEEETTTREEEEE "
 **La liste complète du contenu Anglais est consultable sur la gem [Faker](https://github.com/faker-ruby/faker)**
 
 ### Default
-  - [Faker::Address](doc/default/address.md)
-  - [Faker::Alphanumeric](doc/default/alphanumeric.md)
-  - [Faker::Ancient](doc/default/ancient.md)
-  - [Faker::App](doc/default/app.md)
-  - [Faker::Appliance](doc/default/appliance.md)
-  - [Faker::Artist](doc/default/artist.md)
-  - [Faker::Avatar](doc/default/avatar.md)
-  - [Faker::Bank](doc/default/bank.md)
-  - [Faker::Beer](doc/default/beer.md)
-  - [Faker::Boolean](doc/default/boolean.md)
-  - [Faker::BossaNova](doc/default/bossa_nova.md)
-  - [Faker::Business](doc/default/business.md)
-  - [Faker::Cannabis](doc/default/cannabis.md)
-  - [Faker::ChileRut](doc/default/chile_rut.md)
-  - [Faker::ChuckNorris](doc/default/chuck_norris.md)
-  - [Faker::Code](doc/default/code.md)
-  - [Faker::Coffee](doc/default/coffee.md)
-  - [Faker::Coin](doc/default/coin.md)
-  - [Faker::Color](doc/default/color.md)
-  - [Faker::Commerce](doc/default/commerce.md)
-  - [Faker::Company](doc/default/company.md)
-  - [Faker::Compass](doc/default/compass.md)
-  - [Faker::Construction](doc/default/construction.md)
-  - [Faker::Cosmere](doc/default/cosmere.md)
-  - [Faker::Crypto](doc/default/crypto.md)
-  - [Faker::CryptoCoin](doc/default/crypto_coin.md)
-  - [Faker::Currency](doc/default/currency.md)
-  - [Faker::Date](doc/default/date.md)
-  - [Faker::DcComics](doc/default/dc_comics.md)
-  - [Faker::Demographic](doc/default/demographic.md)
-  - [Faker::Dessert](doc/default/dessert.md)
+  - [Faker::Address](doc/default/address.md) - Adresses française
+  - [Faker::Ancient](doc/default/ancient.md) - Mythologie Grecque
+  - [Faker::Appliance](doc/default/appliance.md) - Grandes Marques et divers produits électroménager /  
+  - [Faker::Artist](doc/default/artist.md) - Peintres
+  - [Faker::Avatar](doc/default/avatar.md) - Générateur d'avatar (type robot) aléatoire
+  - [Faker::Bank](doc/default/bank.md) - Banques françaises, RIB, etc. 
+  - [Faker::Beer](doc/default/beer.md) - J'ai vraiment besoin d'expliquer ?
+  - [Faker::Boolean](doc/default/boolean.md) - Vrai / Faux
+  - [Faker::Business](doc/default/business.md) - Carte de crédits
+  - [Faker::ChuckNorris](doc/default/chuck_norris.md) - Citation Chuck Norris
+  - [Faker::Coffee](doc/default/coffee.md) - Provenance et description
+  - [Faker::Coin](doc/default/coin.md) - Pile ou Face ?
+  - [Faker::Color](doc/default/color.md) - Couleurs, Hex, #FFFFFF, RGB
+  - [Faker::Commerce](doc/default/commerce.md) - Produits, prix et type de rayon
+  - [Faker::Company](doc/default/company.md) - Entreprises, métiers, SIREN, SIRET
+  - [Faker::Compass](doc/default/compass.md) - Nord, Sud, Est, Ouest
+  - [Faker::Construction](doc/default/construction.md) - Métiers et matériaux du bâtiment
+  - [Faker::Currency](doc/default/currency.md) - Différentes monnaies
+  - [Faker::Date](doc/default/date.md) - **English**
+  - [Faker::DcComics](doc/default/dc_comics.md) - **English**
+  - [Faker::Demographic](doc/default/demographic.md) - Nationalité, Race, Genre
+  - [Faker::Dessert](doc/default/dessert.md) - Type de dessert et goûts
   - [Faker::Device](doc/default/device.md)
   - [Faker::DrivingLicence](doc/default/driving_licence.md)
   - [Faker::Educator](doc/default/educator.md)
@@ -214,6 +206,7 @@ Faker::Internet.free_email #=> " A MEEEEEETTTREEEEE "
   - [Faker::Music::Phish](doc/music/phish.md)
   - [Faker::Music::RockBand](doc/music/rock_band.md)
   - [Faker::Music::UmphreysMcgee](doc/music/umphreys_mcgee.md)
+  - [Faker::BossaNova](doc/default/bossa_nova.md) - Musique Brésilienne
 
 ### Quotes
   - [Faker::Quote](doc/quotes/quote.md)

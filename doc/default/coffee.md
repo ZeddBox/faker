@@ -1,13 +1,13 @@
 # Faker::Coffee
 
 ```ruby
-Faker::Coffee.blend_name #=> "Summer Solstice"
+Faker::Coffee.blend_name #=> "Summer Solstice" - English Only
 
-Faker::Coffee.origin #=> "Antigua, Guatemala"
+Faker::Coffee.origin #=> "Sidana, Ethiopie"
 
-Faker::Coffee.variety #=> "Pacas"
+Faker::Coffee.variety #=> "Long", "Expresso", "Latte"
 
-Faker::Coffee.notes #=> "balanced, silky, marzipan, orange-creamsicle, bergamot"
+Faker::Coffee.notes #=> "Equilibré, Aqueux, thé vert, mandarine, fumé"
 
-Faker::Coffee.intensifier #=> "quick"
+Faker::Coffee.intensifier #=> "terne", "arrondi"
 ```

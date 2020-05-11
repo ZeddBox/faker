@@ -4,34 +4,25 @@ Available since version 1.8.0.
 
 ```ruby
 # A random direction
-Faker::Compass.direction                 #=> "southeast"
+Faker::Compass.direction                 #=> "Ouest nord ouest"
 
 # Random cardinal
-Faker::Compass.cardinal                  #=> "north"
+Faker::Compass.cardinal                  #=> "Sud"
 
 # Random ordinal
-Faker::Compass.ordinal                   #=> "northwest"
+Faker::Compass.ordinal                   #=> "Nord-ouest"
 
 # Random half_wind
-Faker::Compass.half_wind                 #=> "north-northwest"
-
-# Random quarter wind
-Faker::Compass.quarter_wind              #=> "north by west"
+Faker::Compass.half_wind                 #=> "nord-nord-est"
 
 # Random abbreviation
-Faker::Compass.abbreviation              #=> "NEbN"
+Faker::Compass.abbreviation              #=> "NE"
 
 # Random cardinal abbreviation
 Faker::Compass.cardinal_abbreviation     #=>    "N"
 
 # Random ordinal abbreviation
-Faker::Compass.ordinal_abbreviation      #=>   "SW"
-
-# Random half wind abbreviation
-Faker::Compass.half_wind_abbreviation    #=>  "NNE"
-
-# Random quarter wind abbreviation
-Faker::Compass.quarter_wind_abbreviation #=> "SWbS"
+Faker::Compass.ordinal_abbreviation      #=>   "SO"
 
 # Random azimuth
 Faker::Compass.azimuth                   #=> "168.75"

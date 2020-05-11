@@ -2,8 +2,8 @@
 
 ```ruby
 # Flip a coin
-Faker::Coin.flip #=> "Heads"
+Faker::Coin.flip #=> "Pile"
 
 # The currency of the coin
-Faker::Coin.name #=> "Philippine Peso"
+Faker::Coin.name #=> "Philippine Peso" - English Only
 ```

@@ -1,7 +1,6 @@
 # Faker::ChuckNorris
 
-Available since version 1.6.4.
-
 ```ruby
-Faker::ChuckNorris.fact #=> "Chuck Norris can solve the Towers of Hanoi in one move."
+Faker::ChuckNorris.fact #=> "Chuck Norris ne ment pas, c'est la vérité qui se trompe."
 ```
+

@@ -36,7 +36,7 @@ module Faker
       end
 
       def product_name
-        "#{fetch('commerce.product_name.adjective')} #{fetch('commerce.product_name.material')} #{fetch('commerce.product_name.product')}"
+        "#{fetch('commerce.product_name.adjective')} #{fetch('commerce.product_name.product').downcase} en #{fetch('commerce.product_name.material').downcase}"
       end
 
       def material

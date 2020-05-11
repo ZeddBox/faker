@@ -3,18 +3,18 @@
 Available since version 1.7.3.
 
 ```ruby
-Faker::Demographic.race #=> "Native Hawaiian or Other Pacific Islander"
+Faker::Demographic.race #=> "Asiatique", "Noir ou afro-américain"
 
-Faker::Demographic.educational_attainment #=> "GED or alternative credential"
+Faker::Demographic.educational_attainment #=> "Aucune scolarité terminée", "Baccalauréat"
 
-Faker::Demographic.demonym #=> "Panamanian"
+Faker::Demographic.demonym #=> "Indien", "Serbe"
 
-Faker::Demographic.marital_status #=> "Widowed"
+Faker::Demographic.marital_status #=> "Veuf", "Marié"
 
-Faker::Demographic.sex #=> "Female"
+Faker::Demographic.sex #=> "Homme" ou "Femme"
 
 Faker::Demographic.height #=> "1.61"
-
 # Keyword arguments: unit
 Faker::Demographic.height(unit: :imperial) #=> "6 ft, 2 in"
 ```
+

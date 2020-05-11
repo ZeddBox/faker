@@ -3,7 +3,7 @@
 ```ruby
 Faker::Color.hex_color #=> "#31a785"
 
-Faker::Color.color_name #=> "yellow"
+Faker::Color.color_name #=> "Jaune"
 
 Faker::Color.rgb_color #=> [54, 233, 67]
 

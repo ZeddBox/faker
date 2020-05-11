@@ -39,7 +39,7 @@ module Faker
       #
       # @faker.version 1.7.3
       def demonym
-        fetch('demographic.demonym')
+        fetch('demographic.demonym').capitalize
       end
 
       ##

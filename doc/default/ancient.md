@@ -1,6 +1,6 @@
 # Faker::Ancient
 
-Available since version 1.7.0.
+Dieux et personnage de la mythologie Grecque
 
 ```ruby
 Faker::Ancient.god #=> "Zeus"
