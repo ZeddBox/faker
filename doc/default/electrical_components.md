@@ -3,9 +3,9 @@
 Available since version 1.9.0.
 
 ```ruby
-Faker::ElectricalComponents.active #=> "Transistor"
+Faker::ElectricalComponents.active #=> "Circuit Intégré"
 
-Faker::ElectricalComponents.passive #=> "Resistor"
+Faker::ElectricalComponents.passive #=> "Accéléromètre"
 
-Faker::ElectricalComponents.electromechanical #=> "Toggle Switch"
+Faker::ElectricalComponents.electromechanical #=> "Prise", "Fusible"
 ```

@@ -14,5 +14,5 @@ Faker::Esport.league #=> "IEM"
 Faker::Esport.event #=> "ESL Cologne"
 
 # Random game
-Faker::Esport.game #=> "Dota2"
+Faker::Esport.game #=> "Fornite", "League of Legends", "FIFA"
 ```

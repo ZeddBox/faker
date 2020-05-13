@@ -1,17 +1,11 @@
 # Faker::Educator
 
-Available since version 1.6.4.
-
 ```ruby
-Faker::Educator.university #=> "Mallowtown Technical College"
+Faker::Educator.university #=> "Université de Bordeaux Montaigne"
 
-Faker::Educator.secondary_school #=> "Iceborough Secondary College"
+Faker::Educator.secondary_school #=> "Lycée Victor Hugo"
 
-Faker::Educator.degree #=> "Associate Degree in Criminology"
+Faker::Educator.degree #=> "Master de Commerce International"
 
-Faker::Educator.course_name #=> "Criminology 101"
-
-Faker::Educator.subject #=> "Criminology"
-
-Faker::Educator.campus #=> "Vertapple Campus"
+Faker::Educator.subject #=> "Médecine", "Communications"
 ```

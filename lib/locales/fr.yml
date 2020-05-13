@@ -194,6 +194,112 @@ fr:
       variety: ["Cake","Cookie","Tarte","Crème Glacée","Pudding","Pain Perdu","Cupcake","Cheesecake","Brownie","Tourte","Doughnut","Yaourt Glacé","Parfait","Sundae","Chocolatine","Gateau à la banane","Carrot Cake","Couronne des Rois","Gateau basque","Chouquette","Forêt Noire","Mousse au chocolat"]
       flavor: ["Vanille","Chocolat","Fraise","Gâteau d'anniversaire","Caramel au beurre salé","Banane","Beurre de noix de pécan","Cookies 'n Cream","Caramel","Pomme","Caramel écossais","Pépites de chocolat à la menthe","Espresso","Beurre de noix de pécan","Cerise","Noix de coco","Pâte à biscuits aux pépites de chocolat","Vanille française","Napolitaine","Pistache","Beurre d'arachide","Amande","Thé vert"," Cheesecake","Citron","Nutella"]
 
+    educator:
+      school_name:
+        - Victor Hugo
+        - Simone-Weil
+        - Montgolfier
+        - Charlemagne
+        - Sophie-Germain
+        - Albanie Lacoume
+        - Henri IV
+        - Louis le Grand
+        - Sévigné
+        - Saint Louis
+        - François Mauriac
+        - La-Rochefoucauld
+        - Victor Dupuy
+        - Condorcet
+        - Tregey
+        - François Mitterrand
+      secondary:
+        - Collège
+        - Lycée
+      university:
+        - HEC Paris
+        - V
+        - Université de Paris 8
+        - Université de Nantes
+        - Université de Lyon
+        - Université de Marseille
+        - Université de Bourgogne
+        - Université de Lille
+        - Université de Rennes 2
+        - Université de Toulouse I
+        - Université de Toulon
+        - Université de Strasbourg
+      secondary_school:
+        - "#{secondary} #{Educator.school_name}"
+      campus:
+        - "#{Educator.school_name} Campus"
+      subject:
+        - Sciences appliquées 
+        - Technologie architecturale
+        - Biologie
+        - Médecine
+        - Management
+        - Commerce International
+        - Communications
+        - Criminologie
+        - Mathématiques
+        - Éducation
+        - Ingénierie
+        - Géographie
+        - Systèmes d'information
+        - Droit
+        - Histoire
+        - Psychologie
+      degree:
+        - "#{Educator.tertiary.degree.type} #{subject}"
+      tertiary:
+        university_type:
+          - College
+          - TAFE
+          - Technical College
+          - University
+        degree:
+          type:
+            - Licence de 
+            - Master de
+            - Doctorat de
+
+    food:
+      dish: ["Côtes de barbecue", "Bruschetta aux tomates", "Salade César", "California Maki", "Penne au chou-fleur", "Cheeseburger", "Fajitas au poulet", "Escalope Milanaise","Chicken Wings", "Chilli con Carne", "Ebiten maki", "Fettuccine Alfredo", "Fish and Chips", "Frites aux saucisses", "Croque Monsieur", "Houmous", "Kebab", "Lasagne", "Linguine aux palourdes", "Massaman Curry", "Boulettes de viande en sauce", "Risotto aux champignons", "Pappardelle alla Bolognese", "Pasta Carbonara", "Pâtes et haricots", "Pâtes aux tomates et basilic", "Canard laqué", "Philadelphia Maki", "Pho", "Pizza", "Pains de poitrine de porc", "Rouleau de saucisse de porc", "Poutine", "Risotto Fruits de Mer", "Saumon Nigiri", "Œufs écossais", "Paella de la Mer", "Sushi", "Tacos", "Teriyaki Chicken Donburi", "Tiramisù"]
+      descriptions: ["Trois œufs avec de la coriandre, des tomates, des oignons, des avocats et du fromage Emmental fondu. Avec un côté de pommes de terre rôties et votre choix de pain grillé ou de croissant.", "Omelette aux trois œufs avec du roquefort, de la ciboulette et du jambon. Avec un côté de pommes de terre rôties et votre choix de pain grillé ou de croissant.", "Trois blancs d'œufs aux épinards, champignons, oignons caramélisés, tomates et fromage feta faible en gras. Avec du quinoa aux herbes et votre choix de seigle ou de pain grillé à grains entiers.", "Saumon fumé, œufs pochés, oignons rouges coupés en dés et sauce hollandaise sur un muffin anglais. Avec un côté de pommes de terre rôties.", "Persil frais, saucisse italienne, échalotes, ail, tomates séchées au soleil et fromage mozzarella dans une croûte tout beurre. Avec un côté de fruits mélangés.", "D'épaisses tranches de pain grillé, de cassonade, de moitié et de moitié et de vanille, garnies de sucre en poudre. Avec deux œufs servis dans n'importe quel style et votre choix de bacon fumé ou de jambon fumé.", "Deux gaufres au babeurre, garnies de crème fouettée et de sirop d'érable, un côté de deux œufs servis dans n'importe quel style, et votre choix de bacon fumé ou de jambon fumé.", "Poulet frit pané avec des gaufres et un côté de sirop d'érable.", "Deux croissants au beurre de votre choix (nature, amande ou fromage). Avec un côté de beurre aux herbes ou pâte à tartiner maison.", "300 g de ribeye certifié USDA de 28 jours, beurre à l'ail au romarin et au thym, avec deux côtés au choix.", "Poulet frit pané avec des gaufres. Servi avec du sirop d'érable.", "Saumon norvégien frais, légèrement badigeonné de notre sauce à la moutarde de Dijon aux herbes, avec choix de deux côtés.", "Fromage et crème pâtissière au mascarpone en couches entre espresso et rhum, faites maison imbibées de rhum, garnies de poudre de cacao Valrhona.", "Pommes Granny Smith mélangées avec de la cassonade et du beurre, dans une croûte feuilletée tout beurre, avec de la crème glacée."]
+      fruits: ["Pommes", "Abricots", "Avocat", "Banane", "Baies", "Mûres", "Oranges sanguines", "Myrtilles", , "Cerises", "Fruit du dragon", "Abricots secs", "Sureau", "Pamplemousse", "Raisin", "Figues", "Goji Berry", "Goyave", "Melon miel", "Kiwi", "Citron", "Litchis", "Mangue",  "Melon", "Mandarines", "Mûres", "Poire", "Nectarines", "Oranges", "Papaye", "Pêches", "Ananas"]
+      ingredients: ["Achacha", "Haricots adzuki", "Agar Agar", "Ajowan Seed", "Thon Albacore", "Huile d'amande", "Amandes", "Amarante", "Amchur", "Anchois", "Anis", "Graine de rocou", "Vinaigre de cidre", "Jus de Pomme", "Jus de pomme Concentré", "Pommes", "Abricots", "Riz arborio", "Artichaut", "Roquette", "Verts asiatiques", "Asian Noodles", "Asperges", "Aubergine", "Avocats", "Huile d'avocat", "Tartinade d'avocat", "Bacon", "Bicarbonate de bicarbonate", "Vinaigre balsamique", "Pousses de bambou", "Bananes", "Épine-vinette", "Orge", "Haricots", "Haricots verts", "Boeuf", "Betterave", "Baies", "Mûres", "Oranges Sanguines", "Fromage Bleu", "Crabe bleu", "Myrtilles", "Bocconcini", "Bok Choy", "Haricots Borlotti", "Noix du Brésil", "Pain", "Pain de seigle", "Pain au levain", "Pain d'épeautre", "Pain blanc", "Pain complet", "Farine complète", "Brie", "Brocoli", "Broccolini", "Riz brun", "Vinaigre de riz brun", "Choux de Bruxelles", "Sarrasin", "Nouilles de sarrasin", "Beurre", "Babeurre", "Laitue Butternut", "Potiron Butternut", "Chou", "Cacao", "Camembert", "Camomille", "Haricots Cannellini", "Huile de canola", "Cantaloup", "Câpres", "Capsicum", "Carotte", "Noix de cajou", "Écorce de cassia", "Chou-fleur", "Cavalo", "Cayenne", "Céleri", "Graine de céleri", "Cheddar", "Cerises", "Châtaigne", "Graines de Chia", "Poulet", "Piment", "Piments frais", "Chou chinois", "Cinq épices chinoises", "Ciboulette", "Chocolat noir", "Chocolat au lait", "Choy Sum", "Cannelle", "Palourdes", "Clous de girofle", "Poudre de cacao", "Noix de coco", "Huile de coco", "Eau de coco", "Café", "Graine de coriandre", "Huile de maïs", "Sirop de maïs", "Tortilla de maïs", "Cornichons", "Farine de maïs", "Fromage Cottage", "Couscous", "Crabes", "Canneberge", "Crème", "Fromage à la crème", "Concombre", "Cumin", "Cumquat", "Groseilles", "Feuilles de curry", "Dates", "Aneth", "Fruit du dragon", "Abricots secs", "Canard", "Edam", "Edamame", "Aubergine", "Oeufs", "Sureau", "Endive", "Épinards anglais", "Huile d'olive extra vierge", "Crevettes d'élevage", "Feijoa", "Fenouil", "Graines de fenouil", "Fenugrec", "Feta", "Figues", "Sole", "Farine", "Farine de sarrasin", "Farine d'avoine", "Farine de pomme de terre", "Farine de riz", "Fromage Blanc", "Fruit", "Ail", "Ciboulette", "Fromage de chèvre", "Lait de chèvre", "Baie de Goji", "Huile de pépins de raisin", "Pamplemousse", "Raisins", "Poivre Vert", "Thé Vert", "Gruyere", "Goyave", "Jambon", "Noisette", "Miel", "Melon miel", "Raifort", "Saumon fumé", "Houmous", "Laitue Iceberg", "Potiron Jarrahdale", "Riz au jasmin", "Gelée", "Topinambour", "Feuilles de tilleul", "Champignons plats", "Champignons bruns", "Capucine", "Nectarines", "Nori", "Noix de muscade", "Levure nutritionnelle", "Noix", "Gruau", "Avoine", "Olive Oil", "Olives", "Oméga à tartiner", "Oignon", "Oranges", "Origan", "Sauce aux huîtres", "Huîtres", "Poire", "Feuilles de Pandanus", "Paprika", "Fromage Parmesan", "Persil", "Panais", "Fruit de la passion", "Pâtes", "Jus de poire", "Poires", "Pois", "Noix de pécan", "Quinoa", "Framboise", "Chou rouge", "Lentilles rouges", "Poivrons rouges", "Vinaigre de vin rouge", "Sébaste", "Rhubarbe", "Nouilles de riz", "Papier de riz", "Sirop de riz", "Romarin", "Seigle", "Huile de carthame", "Safran", "Sauge", "Saké", "Saumon", "Sardines", "Saucisses", "Pétoncles", "Sel de mer", "Semoule", "Huile de sésame", "Graines de sésame", "Requin", "Betterave argentée", "Amandes effilées", "Truite fumée", "Vivaneau","Soba", "Haricots de soja", "Lait de soja", "Sauce de soja", "Soja", "Germes", "Lait de soja","Menthe verte", "Épeautre", "Épinard", "Oignons de printemps", "Courge"]
+      vegetables: ["Artichaut", "Roquette", "Verts d'Asie", "Asperges", "Pousses de haricot", "Germes de soja", "Haricots", "Haricots verts", "Betterave rouge", "Bok choy", "Brocoli", " Broccolini "," Choux de Bruxelles "," Laitue musquée "," Chou "," Câpres "," Carotte carotte "," Carotte "," Chou-fleur "," Céleri "," Piment rouge "," Chou chinois "," Frais Piments", "Brocoli chinois séché", "Cornichons", "Laitue Cos", "Concombre", "Aubergine", "Endive", "Épinard anglais", "Eschallots français", "Ail", "Ciboulette", "Poivron vert", "Hijiki", "Laitue Iceberg", "Topinambour", "Jicama", "Kale", "Kohlrabi", "Poireaux", "Laitue", "Oignon", "Okra", "Panais", "Pois", "Poivrons", "Pommes de terre", "Citrouille", "Carotte violette", "Radicchio", "Radis", "Framboise", "Chou rouge", "Poivron rouge", "Rhubarbe" , "Germes de pois mange-tout", "Épinards", "Courges", "Tomates séchées au soleil", "Patate douce", "Bette à carde", "Navets", "Courgettes"]
+      measurements: ["cuillère à café", "cuillère à soupe", "tasse", "pinte", "quart", "gallon"]
+      measurement_sizes: ["1/4", "1/3", "1/2", "1", "2", "3"]
+      metric_measurements: ["millilitre", "décilitre", "centilitre", "litre"]      
+
+    greek_philosophers:
+      names: ["Platon", "Aristote", "Pythagore", "Héraclite", "Parménide", "Démocrite", "Zénon d'Élée", "Épicure", "Anaxagore", "Diogène", "Antisthène", "Gorgias" , "Hippocrate", "Plutarque", "Proclus", "Chrysippus", "Solon", "Archimède", "Thucydide", "Arcesilaus", "Posidonius", "Galen"]
+      quotes: [
+        "La musique donne une âme à nos coeurs et des ailes à la pensée.",
+        "Tout ce que je sais, c'est que je ne sais rien.",
+        "Si on veut connaître un peuple, il faut écouter sa musique.",
+        "Un homme n'est jamais si grand que lorsqu'il est à genoux pour aider un enfant.",
+        "Si la vertu ne suffit pas à assurer le bonheur, la méchanceté suffit à rendre malheureux.",
+        "L'ignorant affirme, le savant doute, le sage réfléchit.",
+        "Existe-t-il pour l'homme un bien plus précieux que la Santé ?",
+        "La justice de l'intelligence est la sagesse. Le sage n'est pas celui qui sait beaucoup de choses, mais celui qui voit leur juste mesure.",
+        "Connais-toi toi-même.",
+        "Je ne suis ni Athénien, ni Grec, mais un citoyen du monde.",
+        "La victoire sur soi est la plus grande des victoires.",
+        "Mieux vaut encore subir l'injure que la commettre.",
+        "Si un âne te donne un coup de pied, ne lui rends pas.",
+        "La simplicité véritable allie la bonté à la beauté.",
+        "Le bonheur c'est le plaisir sans remords.",
+        "La femme souffre plus que l'homme du mal d'amour, mais elle sait mieux le dissimuler.",
+        "Ceux qui désirent le moins de choses sont les plus près des dieux.",
+        "L'homme est le seul des animaux à croire à des dieux.",
+        "Le plus grand mal, à part l'injustice, serait que l'auteur de l'injustice ne paie pas la peine de sa faute.",
+        "En toute chose, c'est la fin qui est essentiel.",
+        "Qui parle sème ; qui écoute récolte.",
+        "Il n'y a point de génie sans un grain de folie."
+      ]
+
     internet:
       free_email: [gmail.com, yahoo.fr, hotmail.fr]
       domain_suffix: [com, fr, eu, info, name, net, org, immo, paris, alsace, bzh]

@@ -4,7 +4,7 @@
 
 ## AVANCEMENT ENVIRON 25 %
 
-![progress](https://progress-bar.dev/25/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/33/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 **❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
@@ -20,7 +20,7 @@ Le contenu a été grandement amélioré
   - [Usage](#usage)
   - [Générateur](#generators)
     
-    - [Général](#default)
+    - [Général](#général)
     - [Blockchain](#blockchain)
     - [Books](#books)
     - [Creature](#creature)
@@ -100,21 +100,18 @@ Faker::Internet.free_email #=> "  "
   - [Faker::DcComics](doc/default/dc_comics.md) - **English**
   - [Faker::Demographic](doc/default/demographic.md) - Nationalité, Race, Genre
   - [Faker::Dessert](doc/default/dessert.md) - Type de dessert et goûts
-  - [Faker::Device](doc/default/device.md)
-  - [Faker::DrivingLicence](doc/default/driving_licence.md)
-  - [Faker::Educator](doc/default/educator.md)
-  - [Faker::ElectricalComponents](doc/default/electrical_components.md)
-  - [Faker::Esport](doc/default/esport.md)
-  - [Faker::File](doc/default/file.md)
-  - [Faker::Fillmurray](doc/default/fillmurray.md)
-  - [Faker::Finance](doc/default/finance.md)
-  - [Faker::Food](doc/default/food.md)
-  - [Faker::FunnyName](doc/default/funny_name.md)
-  - [Faker::Gender](doc/default/gender.md)
-  - [Faker::GreekPhilosophers](doc/default/greek_philosophers.md)
-  - [Faker::Hacker](doc/default/hacker.md)
-  - [Faker::Hipster](doc/default/hipster.md)
-  - [Faker::House](doc/default/house.md)
+  - [Faker::Device](doc/default/device.md) - Marque, modèle et OS de smartphone
+  - [Faker::Educator](doc/default/educator.md) - Lycée, Universités, Matières
+  - [Faker::ElectricalComponents](doc/default/electrical_components.md) Composants éléctriques actifs, passifs, éléctromécaniques
+  - [Faker::Esport](doc/default/esport.md) - Joueurs et équipe Esport - Jeux vidéos 
+  - [Faker::Fillmurray](doc/default/fillmurray.md) - Image avec Bill Murray, avec la taille au choix
+  - [Faker::Finance](doc/default/finance.md) - Numéro de CB
+  - [Faker::Food](doc/default/food.md) - Nourriture 
+  - [Faker::Gender](doc/default/gender.md) - Homme/Femme/Autres
+  - [Faker::GreekPhilosophers](doc/default/greek_philosophers.md) - Philosphes et citations grecques
+  - [Faker::Hacker](doc/default/hacker.md) - **English**
+  - [Faker::Hipster](doc/default/hipster.md) - Plein de mots de hipsters
+  - [Faker::House](doc/default/house.md) - Meubles et pièces
   - [Faker::IDNumber](doc/default/id_number.md)
   - [Faker::IndustrySegments](doc/default/industry_segments.md)
   - [Faker::Internet](doc/default/internet.md)
@@ -130,6 +127,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Measurement](doc/default/measurement.md)
   - [Faker::Military](doc/default/military.md)
   - [Faker::Name](doc/default/name.md)
+  - [Faker::FunnyName](doc/default/funny_name.md) - Prénom/Nom rigolo
   - [Faker::Nation](doc/default/nation.md)
   - [Faker::NatoPhoneticAlphabet](doc/default/nato_phonetic_alphabet.md)
   - [Faker::NationalHealthService](doc/default/national_health_service.md)

@@ -3,7 +3,7 @@
 Available since version 1.9.0.
 
 ```ruby
-Faker::GreekPhilosophers.name #=> "Socrates"
+Faker::GreekPhilosophers.name #=> "Aristote"
 
-Faker::GreekPhilosophers.quote #=> "Only the educated are free."
+Faker::GreekPhilosophers.quote #=> "Il n'y a point de génie sans un grain de folie."
 ```
