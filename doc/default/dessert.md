@@ -9,3 +9,4 @@ Faker::Dessert.variety #=> "Mousse au chocolat", "Cheesecake"
 # Random dessert flavor
 Faker::Dessert.flavor #=> "Caramel au beurre salé", "Chocolat"
 ```
+

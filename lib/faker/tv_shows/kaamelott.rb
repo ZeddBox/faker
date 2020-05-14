@@ -7,8 +7,6 @@ module Faker
 
       class << self
         # Produces a Kaamelott.
-        # Original list of jokes:
-        # http://www.rajinikanthjokes.com/
         #
         # @return [String]
         #

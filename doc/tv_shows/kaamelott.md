@@ -1,6 +1,6 @@
 # Faker::Quotes::Rajnikanth
 
 ```ruby
-Faker::Quotes::Kaamelott.joke #=> "Rajinikanth can get rid of his shadow"
+Faker::Quotes::Rajnikanth.joke #=> "Rajinikanth can get rid of his shadow"
 ```
 
