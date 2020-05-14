@@ -3,3 +3,4 @@
 ```ruby
 Faker::TvShows::AquaTeenHungerForce.character #=> "Master Shake"
 ```
+
