@@ -48,7 +48,7 @@ gem install faker
 Puis, pour changer la langue principale et utiliser le contenu additionnel en français il faut saisir ceci dans le fichier **Gemfile**
 
 ```ruby
-gem 'faker', :git => 'https://github.com/ZeddBox/faker.git', :branch => 'master'
+gem 'faker', :git => 'https://github.com/ZeddBox/faker_fr.git', :branch => 'master'
 ```
 
 Puis 
