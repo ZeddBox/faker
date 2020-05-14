@@ -130,7 +130,7 @@ fr:
 
     construction:   
       heavy_equipment: ["Excavatrice","Tractopelle","Bulldozer","Niveleuse","Trancheuse","Grattoir","Tombereau","Compacteur","Dragline"]
-      materials: ["Aluminium", "Laiton","Verre","Granit","Plastique","Plexiglas","Caoutchouc","Acier","Calcul","Vinyle","Bois"]
+      materials: ["Entreprise Publique", "Institution", "Entreprise unipersonnelle", "Agence gouvernementale", "Société à but non lucratif", "Entreprise privée", "Partenariat"]
       subcontract_categories: ["Entreprise générale","Couvreur","Plaquiste","Alarme électrique et incendie","Électrique","Menuiserie","Revêtement de sol époxy","Signalisation extérieure","Aménagement paysager et irrigation","Maçonnerie et préfabriqué","Maçonnerie","Garde-corps ornementaux","Portes sectionnelles","Peinture","Plomberie"]
       roles: ["Directeur de la construction","Chiffreur","Architecte","Superviseur","Ouvrier du batiment","Ingénieur","Électricien","Contremaître de construction","Sous-traitant","Gestionnaire de projet",]
 
