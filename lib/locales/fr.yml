@@ -128,6 +128,11 @@ fr:
       type: ["Entreprise Publique", "Institution", "Entreprise unipersonnelle", "Agence gouvernementale", "Société à but non lucratif", "Entreprise privée", "Partenariat"]
       profession: ["professeur", "acteur", "musicien", "philosophe", "écrivain", "médecin", "comptable", "agriculteur", "architecte", "économiste", "ingénieur", "interprète", "avocat","bibliothécaire","statisticien","ressources humaines","pompier","juge","officier de police","astronome","biologiste","chimiste","physicien" , "programmeur", "développeur web", "designer", "actrice", "contrôleur de la circulation aérienne", "artiste", "banquier", "barman", "barbier", "comptable", "constructeur","homme d'affaires","boucher","menuisier","caissier","chef","coach","dentiste","hygiéniste dentaire","développeur","diététicien","éditeur","électricien" , "ouvrier d'usine", "agriculteur", "pêcheur", "jardinier", "coiffeur", "journaliste", "conférencier", "maître nageur", "mécanicien", "modèle", "infirmière", "opticien", "peintre", "pharmacien", "photographe", "pilote", "plombier", "politicien", "facteur", "réceptionniste", "scientifique", "secrétaire","tailleur","chauffeur de taxi", "agent de la circulation", "agent de voyages", "vétérinaire", "serveur", "nettoyeur de vitres"]
 
+    construction:   
+      heavy_equipment: ["Excavatrice","Tractopelle","Bulldozer","Niveleuse","Trancheuse","Grattoir","Tombereau","Compacteur","Dragline"]
+      materials: ["Aluminium", "Laiton","Verre","Granit","Plastique","Plexiglas","Caoutchouc","Acier","Calcul","Vinyle","Bois"]
+      subcontract_categories: ["Entreprise générale","Couvreur","Plaquiste","Alarme électrique et incendie","Électrique","Menuiserie","Revêtement de sol époxy","Signalisation extérieure","Aménagement paysager et irrigation","Maçonnerie et préfabriqué","Maçonnerie","Garde-corps ornementaux","Portes sectionnelles","Peinture","Plomberie"]
+      roles: ["Directeur de la construction","Chiffreur","Architecte","Superviseur","Ouvrier du batiment","Ingénieur","Électricien","Contremaître de construction","Sous-traitant","Gestionnaire de projet",]
 
     demographic:
       race: ["Amérindien ou originaire de l'Alaska","Asiatique","Noir ou afro-américain","Amérindien hawaïen ou autre insulaire du Pacifique","Blanc"]
