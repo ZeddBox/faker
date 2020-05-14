@@ -40,10 +40,12 @@ Le contenu a été grandement amélioré
 * Ceci est un fork de la version **2.11** de **Faker**, il est possible qu'un problème de compatibilité apparaisse un jour, n'hésitez pas à me contacter à ce moment là.
 
 ## 💻 Installation 
+
+Pour une première utilisation : 
 ```bash
 gem install faker
 ```
-Afin de changer la langue principale et utiliser le contenu additionnel en français il faut saisir ceci dans le fichier **Gemfile**
+Puis, pour changer la langue principale et utiliser le contenu additionnel en français il faut saisir ceci dans le fichier **Gemfile**
 
 ```ruby
 gem 'faker', :git => 'https://github.com/ZeddBox/faker.git', :branch => 'master'
