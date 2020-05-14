@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
 module Faker
-  class Quotes
-    class Rajnikanth < Base
-      flexible :rajnikanth
+  class TvShows
+    class Kaamelott < Base
+      flexible :kaamelott
 
       class << self
-        # Produces a Rajnikanth.
+        # Produces a Kaamelott.
         # Original list of jokes:
         # http://www.rajinikanthjokes.com/
         #
         # @return [String]
         #
         # @example
-        #   Faker::Rajnikanth.joke
+        #   Faker::Rajnikanth.quote
         #     #=> "Rajinikanth is so fast that he always comes yesterday."
         #
         # @faker.version 2.11.0
-        def joke
-          fetch('rajnikanth.joke')
+        def quote
+          fetch('kaamelott.quote')
         end
       end
     end

@@ -89,7 +89,6 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Beer](doc/default/beer.md) - J'ai vraiment besoin d'expliquer ?
   - [Faker::Boolean](doc/default/boolean.md) - Vrai / Faux
   - [Faker::Business](doc/default/business.md) - Carte de crédits
-  - [Faker::ChuckNorris](doc/default/chuck_norris.md) - Citation Chuck Norris
   - [Faker::Coffee](doc/default/coffee.md) - Provenance et description
   - [Faker::Coin](doc/default/coin.md) - Pile ou Face ?
   - [Faker::Color](doc/default/color.md) - Couleurs, Hex, #FFFFFF, RGB
@@ -226,6 +225,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Quotes::Chiquito](doc/quotes/chiquito.md)
   - [Faker::Quotes::Rajnikanth](doc/quotes/rajnikanth.md)
   - [Faker::Quotes::Shakespeare](doc/quotes/shakespeare.md)
+  - [Faker::ChuckNorris](doc/default/chuck_norris.md) - Citation Chuck Norris
 
 
 ### Sports
