@@ -128,7 +128,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Marketing](doc/default/marketing.md)
   - [Faker::Measurement](doc/default/measurement.md)
   - [Faker::Military](doc/default/military.md)
-  - [Faker::Name](doc/default/name.md)
+  - [Faker::Name](doc/default/name.md) - Noms / Prénoms
   - [Faker::FunnyName](doc/default/funny_name.md) - Prénom/Nom rigolo
   - [Faker::Nation](doc/default/nation.md)
   - [Faker::NatoPhoneticAlphabet](doc/default/nato_phonetic_alphabet.md)
