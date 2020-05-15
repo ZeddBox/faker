@@ -223,7 +223,6 @@ Faker::Internet.free_email #=> "  "
 ### Quotes
   - [Faker::Quote](doc/quotes/quote.md)
   - [Faker::Quotes::Chiquito](doc/quotes/chiquito.md)
-  - [Faker::Quotes::Rajnikanth](doc/quotes/rajnikanth.md)
   - [Faker::Quotes::Shakespeare](doc/quotes/shakespeare.md)
   - [Faker::ChuckNorris](doc/default/chuck_norris.md) - Citation Chuck Norris
 
@@ -245,6 +244,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::TvShows::GameOfThrones](doc/tv_shows/game_of_thrones.md)
   - [Faker::TvShows::HeyArnold](doc/tv_shows/hey_arnold.md)
   - [Faker::TvShows::HowIMetYourMother](doc/tv_shows/how_i_met_your_mother.md)
+  - [Faker::TvShows::Kaamelott](doc/tv_shows/kaamelott.md) - Citation Kaamelott
   - [Faker::TvShows::MichaelScott](doc/tv_shows/michael_scott.md)
   - [Faker::TvShows::NewGirl](doc/tv_shows/new_girl.md)
   - [Faker::TvShows::ParksAndRec](doc/tv_shows/parks_and_rec.md)

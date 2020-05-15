@@ -1,6 +1,8 @@
-# Faker::Quotes::Rajnikanth
+# Faker::TvShows::Kaamelott
 
 ```ruby
-Faker::Quotes::Rajnikanth.joke #=> "Rajinikanth can get rid of his shadow"
+Faker::TvShows::Kaamelott.quote #=> "Et à un moment... le sorcier s’est mis à nous menacer avec ses parties génitales."
+
+Faker::TvShows::Kaamelott.quote #=> "C’est pas faux !"
 ```
 

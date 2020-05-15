@@ -18,6 +18,7 @@ module Faker
   class Config
     @locale = 'fr'
     @random = nil
+    I18n.locale = 'fr'
 
     class << self
       attr_writer :locale
