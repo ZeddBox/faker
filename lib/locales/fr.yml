@@ -215,6 +215,9 @@ fr:
       measurement_sizes: ["1/4", "1/3", "1/2", "1", "2", "3"]
       metric_measurements: ["millilitre", "décilitre", "centilitre", "litre"]      
 
+    gender:
+      binary_types: ["Masculin","Féminin"]
+    
     greek_philosophers:
       names: ["Platon", "Aristote", "Pythagore", "Héraclite", "Parménide", "Démocrite", "Zénon d'Élée", "Épicure", "Anaxagore", "Diogène", "Antisthène", "Gorgias" , "Hippocrate", "Plutarque", "Proclus", "Chrysippus", "Solon", "Archimède", "Thucydide", "Arcesilaus", "Posidonius", "Galen"]
       quotes: [
@@ -246,9 +249,19 @@ fr:
       free_email: [gmail.com, yahoo.fr, hotmail.fr]
       domain_suffix: [com, fr, eu, info, name, net, org, immo, paris, alsace, bzh]
 
-    gender:
-      binary_types: ["Masculin","Féminin"]
-    
+    job:
+      field: [Marketing, Informatique, Comptabilité, Administration, Publicité, Banque, Services Communautaires, Construction, Conseil, Conception, Education, Agriculture, Gouvernement, Santé, Hôtellerie, Juridique, Fabrication, Marketing, Exploitation Minière, Immobilier, Vente au détail, Vente, Technologie ]
+      seniority: [ National, Regional, International, Principal, Secondaire]
+      position: [Superviseur, Executif, Manager, Ingenieur, Specialiste, Directeur, Coordinateur, Administrateur, Architecte, Analyste, Designer, Technicien, Developpeur, Producteur, Consultant, Assistant, Agent, Stagiaire]
+      key_skills: [Travail d'équipe, Communication, Résolution de problèmes, Leadership, Organisation, Travail sous pression, Confiance, Motivé, Compétences de réseautage, Proactif, Apprenant rapide, Expert technique]
+      employment_type: [Temps plein, Temps Partiel, Temporaire, Contrat, Stage, Commission]
+      education_level: [Bachelier, Licence, Master, Doctorat]
+      title:
+        - "#{position} #{seniority} #{field}"
+        - "#{position} #{seniority} #{field}"
+        - "#{field} #{position}"
+        - "#{field} #{position}"
+        - "#{seniority} #{position}"
     job: 
       title:
         position: [Superviseur, Executif, Manager, Ingenieur, Specialiste, Directeur, Coordinateur, Administrateur, Architecte, Analyste, Designer, Technicien, Developpeur, Producteur, Consultant, Assistant, Agent, Stagiaire]

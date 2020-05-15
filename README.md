@@ -113,8 +113,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Hacker](doc/default/hacker.md) - **English**
   - [Faker::Hipster](doc/default/hipster.md) - Plein de mots de hipsters
   - [Faker::House](doc/default/house.md) - Meubles et pièces
-  - [Faker::Internet](doc/default/internet.md)
-  - [Faker::Invoice](doc/default/invoice.md)
+  - [Faker::Internet](doc/default/internet.md) - Mail, passwords, URL
   - [Faker::Job](doc/default/job.md)
   - [Faker::Json](doc/default/json.md)
   - [Faker::Kpop](doc/default/kpop.md)
