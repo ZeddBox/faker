@@ -114,9 +114,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Hipster](doc/default/hipster.md) - Plein de mots de hipsters
   - [Faker::House](doc/default/house.md) - Meubles et pièces
   - [Faker::Internet](doc/default/internet.md) - Mail, passwords, URL
-  - [Faker::Job](doc/default/job.md)
-  - [Faker::Json](doc/default/json.md)
-  - [Faker::Kpop](doc/default/kpop.md)
+  - [Faker::Job](doc/default/job.md) - Métiers
+  - 
   - [Faker::Lorem](doc/default/lorem.md)
   - [Faker::LoremFlickr](doc/default/lorem_flickr.md)
   - [Faker::LoremPixel](doc/default/lorem_pixel.md)
@@ -126,15 +125,11 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Military](doc/default/military.md)
   - [Faker::Name](doc/default/name.md) - Noms / Prénoms
   - [Faker::FunnyName](doc/default/funny_name.md) - Prénom/Nom rigolo
-  - [Faker::Nation](doc/default/nation.md)
-  - [Faker::NatoPhoneticAlphabet](doc/default/nato_phonetic_alphabet.md)
-  - [Faker::NationalHealthService](doc/default/national_health_service.md)
-  - [Faker::Number](doc/default/number.md)
-  - [Faker::Omniauth](doc/default/omniauth.md)
-  - [Faker::PhoneNumber](doc/default/phone_number.md)
-  - [Faker::Placeholdit](doc/default/placeholdit.md)
-  - [Faker::ProgrammingLanguage](doc/default/programming_language.md)
-  - [Faker::Relationship](doc/default/relationship.md)
+  - [Faker::Nation](doc/default/nation.md) - Pays - Capital - Langue et Drapeau (Emoji)
+  - [Faker::Number](doc/default/number.md) - **English**
+  - [Faker::PhoneNumber](doc/default/phone_number.md) - Numéro de téléphone et portable (FR)
+  - [Faker::ProgrammingLanguage](doc/default/programming_language.md) **English**
+  - [Faker::Relationship](doc/default/relationship.md) - Famille - Belle-famille
   - [Faker::Restaurant](doc/default/restaurant.md)
   - [Faker::Science](doc/default/science.md)
   - [Faker::SlackEmoji](doc/default/slack_emoji.md)
@@ -216,6 +211,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Music::RockBand](doc/music/rock_band.md)
   - [Faker::Music::UmphreysMcgee](doc/music/umphreys_mcgee.md)
   - [Faker::BossaNova](doc/default/bossa_nova.md) - Musique Brésilienne
+  - [Faker::Kpop](doc/default/kpop.md)
 
 ### Citations
   - [Faker::Quote](doc/quotes/quote.md)

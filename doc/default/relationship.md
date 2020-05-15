@@ -3,15 +3,15 @@
 
 ```ruby
 # Keyword arguments: connection
-Faker::Relationship.familial #=> "Mother" or "Grandmother"
-Faker::Relationship.familial(connection: 'direct') #=> "Mother" or "Brother"
-Faker::Relationship.familial(connection: 'extended') #=> "Grandmother" or "Niece" or "Aunt"
+Faker::Relationship.familial #=> "Mère", "Grand-père"
+Faker::Relationship.familial(connection: 'direct') #=> "Mère", "Frère"
+Faker::Relationship.familial(connection: 'extended') #=> "Grand-mère", "Nièce", "Tante"
 
-Faker::Relationship.spouse #=> "Husband" or "Wife"
+Faker::Relationship.spouse #=> "Mari" ou "Femme"
 
-Faker::Relationship.parent #=> "Father" or "Mother"
+Faker::Relationship.parent #=> "Père" ou "Mère"
 
-Faker::Relationship.in_law #=> "Father-in-law"
+Faker::Relationship.in_law #=> "Beau-frère"
 
-Faker::Relationship.sibling #=> "Sister" or "Brother"
+Faker::Relationship.sibling #=> "Soeur" ou "Frère"
 ```

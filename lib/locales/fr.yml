@@ -257,11 +257,16 @@ fr:
       employment_type: [Temps plein, Temps Partiel, Temporaire, Contrat, Stage, Commission]
       education_level: [Bachelier, Licence, Master, Doctorat]
       title:
-        - "#{seniority} #{field} #{position}"
-        - "#{seniority} #{field} #{position}"
+        - "#{position} #{seniority} #{field}"
+        - "#{position} #{seniority} #{field}"
         - "#{field} #{position}"
         - "#{field} #{position}"
         - "#{seniority} #{position}"
+
+    nation: 
+      nationality: ["Afghan","Albanais","Algérien","Américain","Andorran","Angolais","Argentin","Arménien","Australien","Autrichien","Azerbaïdjanais","Bahamien","Bangladais","Barbadien","Basotho","Basque","Biélorusse","Belge","Bélizien","Bermudien","Bosniaque","Brésilien","Breton","Britannique","Bulgare","Burkinabè","Burundais","Cambodgien","Camerounais","Canadien","Catalan","Cap-verdien","Tchadien","Chilien","Chinois","Colombien","Comorien","Congolais","Croate","Cubain","Chypriote","Tchèque","Danois","Néerlandais","Anglais","Estonien","Ethiopien","Féroïen","Finnois","Fidjien","Philippin","Français","Géorgien","Allemand","Ghanéen"," Gibraltar","Grec","Guatémaltèque","Guyane Française","Guinéenne","Guyanaise","Haïtienne","Hondurienne","Hong Konger","Hongroise","Islandaise","Indienne","Indonésienne","Iranienne"," Irakien","Irlandais","Israélien","Italien","Ivoirien","Jamaïcain","Japonais","Jordanien","Kazakh","Kurde","Libanais","Libérien","Libyen","Liechtenstein","Lituanien","Luxembourgeois","Macanais","Macédonien","Malgache","Malaisien","Malawien","Maldivien","Malien","Maltais","Mannois","Mauricien","Mexicain","Néo-zélandais" ,"Nicaraguayen","Nigérien","Nigérian","Norvégien","Pakistanais","Palestinien","Panaméen","Papouasie-Nouvelle-Guinée","Paraguayen","Péruvien","Portugais","portoricain","québécois","roumain","Russe","Rwandais","Salvadorien","Saoudien","Ecossais","Sénégalais","Serbe","Sud-Africain","Espagnol","Sri Lankais","St Lucien","Soudanais","Surinamais","Suédois","Suisse","Syrien","Tadjik","Taïwanais","Tanzanien","Thaïlandais","Tibétain","Tobagonien","Trinidadien","Tunisien","Turc","Tuvaluan","Ougandais","Ukrainien","Uruguayen","Vénézuélien","Vietnamien","Zimbabwéen"]
+      language: [Népalais, Hindi, Anglais, Arabe, Portugais, Russe, Japonais, Allemand, Javanais, Télougou, Coréen, Français, Marathi, Italien, Thaï, Hakka, Tagalog, Roumain, Néerlandais, Kazakh, Zoulou, Suédois]
+      capital_city: [Kaboul, Tirana, Alger, Andorre-la-Vieille, Luanda, Saint-Jean, Buenos Aires, Erevan, Canberra, Vienne, Bakou, Nassau, Manama, Dacca, Bridgetown, Minsk, Bruxelles, Belmopan, Porto-Novo, Thimphu, Sarajevo, Gaborone , Brasilia, Bandar Seri Begawan, Sofia, Ouagadougou, Bujumbura, Phnom Penh, Yaoundé, Ottawa, Praia Bangui, N'Djamena, Santiago, Pékin, Bogota, Moroni, Brazzaville, Kinshasa, San Jose, Zagreb, La Havane, Nicosie, Prague, Copenhague, Djibouti, Roseau, Saint-Domingue, Dili, Quito, Le Caire, San Salvador, Malabo, Asmara, Tallinn, Suva, Helsinki, Paris, Libreville, Banjul, Berlin, Accra, Athènes, Saint George's, Guatemala City , Conakry, Bissau, Georgetown, Prince, Tegucigalpa, Budapest, Reykjavik, New Delhi, Jakarta, Téhéran, Bagdad, Dublin, Jérusalem, Rome, Kingston, Tokyo, Amman, Astana, Nairobi, Pyongyang, Séoul, Pristina, Bichkek, Vientiane, Riga, Beyrouth, Maseru, Monrovia, Tripoli, Vaduz, Vilnius, Luxembourg, Skopje, Antananarivo, Kuala Lumpur, Bamako, La Valette, Majuro, Port Louis, Mexico, Palikir, Monaco, Oulan-Bator, Rabat, Maputo, Windhoek, Katmandou, Wellington, Managua, Niamey, Abuja, Oslo, Muscat , Islamabad, Melekeok, Panama City, Port Moresby, Asuncion, Lima, Manila, Warsaw, Lisbon, Doha, Bucharest, Moscow, Kigali, Basseterre, Castries, Kingstown, Apia, San Marino, Sao Tome, Riyadh, Dakar, Belgrade, Victoria , Freetown, Singapour, Bratislava, Madrid, Colombo, Khartoum, Paramaribo, Mbabane, Stockholm, Berne, Damas, Taipei, Bangkok, Tunis, Ankara, Ashgabat, Kampala, Kiev, Abu Dhabi, Londres, Washington DC, Montevideo, Tachkent, Port-Vila, Vatican, Caracas, Hanoi, Sanaa, Lusaka, Harare]
 
     lorem:
       words: [alias, consequatur, aut, perferendis, sit, voluptatem, accusantium, doloremque, aperiam, eaque, ipsa, quae, ab, illo, inventore, veritatis, et, quasi, architecto, beatae, vitae, dicta, sunt, explicabo, aspernatur, aut, odit, aut, fugit, sed, quia, consequuntur, magni, dolores, eos, qui, ratione, voluptatem, sequi, nesciunt, neque, dolorem, ipsum, quia, dolor, sit, amet, consectetur, adipisci, velit, sed, quia, non, numquam, eius, modi, tempora, incidunt, ut, labore, et, dolore, magnam, aliquam, quaerat, voluptatem, ut, enim, ad, minima, veniam, quis, nostrum, exercitationem, ullam, corporis, nemo, enim, ipsam, voluptatem, quia, voluptas, sit, suscipit, laboriosam, nisi, ut, aliquid, ex, ea, commodi, consequatur, quis, autem, vel, eum, iure, reprehenderit, qui, in, ea, voluptate, velit, esse, quam, nihil, molestiae, et, iusto, odio, dignissimos, ducimus, qui, blanditiis, praesentium, laudantium, totam, rem, voluptatum, deleniti, atque, corrupti, quos, dolores, et, quas, molestias, excepturi, sint, occaecati, cupiditate, non, provident, sed, ut, perspiciatis, unde, omnis, iste, natus, error, similique, sunt, in, culpa, qui, officia, deserunt, mollitia, animi, id, est, laborum, et, dolorum, fuga, et, harum, quidem, rerum, facilis, est, et, expedita, distinctio, nam, libero, tempore, cum, soluta, nobis, est, eligendi, optio, cumque, nihil, impedit, quo, porro, quisquam, est, qui, minus, id, quod, maxime, placeat, facere, possimus, omnis, voluptas, assumenda, est, omnis, dolor, repellendus, temporibus, autem, quibusdam, et, aut, consequatur, vel, illum, qui, dolorem, eum, fugiat, quo, voluptas, nulla, pariatur, at, vero, eos, et, accusamus, officiis, debitis, aut, rerum, necessitatibus, saepe, eveniet, ut, et, voluptates, repudiandae, sint, et, molestiae, non, recusandae, itaque, earum, rerum, hic, tenetur, a, sapiente, delectus, ut, aut, reiciendis, voluptatibus, maiores, doloribus, asperiores, repellat]
@@ -290,7 +295,6 @@ fr:
 
     phone_number:
       formats: ['01########', '02########', '03########', '04########', '05########', '09########', '+33 1########', '+33 2########', '+33 3########', '+33 4########', '+33 5########', '+33 9########', '01 ## ## ## ##', '02 ## ## ## ##', '03 ## ## ## ##', '04 ## ## ## ##', '05 ## ## ## ##', '09 ## ## ## ##', '+33 1 ## ## ## ##', '+33 2 ## ## ## ##', '+33 3 ## ## ## ##', '+33 4 ## ## ## ##', '+33 5 ## ## ## ##', '+33 9 ## ## ## ##']
-
     cell_phone:
       formats: ['06########', '07########', '+33 6########', '+33 7########', '06 ## ## ## ##', '07 ## ## ## ##', '+33 6 ## ## ## ##', '+33 7 ## ## ## ##']
 
@@ -299,6 +303,15 @@ fr:
       author: "#{Name.name}"
       publisher: ['Éditions du Soleil', 'La Perdrix', 'Les Éditions jaune turquoise', 'Bordel père et fils', 'Au lecteur éclairé', 'Lire en dormant']
       quote: ['Qui vivra verra', 'L’habit ne fait pas le moine', 'Chacun voit midi à sa porte', 'Mieux vaut prévenir que guérir', 'Petit a petit, l’oiseau fait son nid', 'Qui court deux lievres a la fois, n’en prend aucun', 'Qui n’avance pas, recule']
+
+    relationship:
+      familial:
+        direct: ['Père', 'Mère', 'Soeur', 'Frère']
+        extended: ['Grand-père', 'Grand-mère', 'Oncle', 'Tante', 'Cousin', 'Nièce', 'Neveu', 'Petit-fils', 'Petite-fille']
+      in_law: ['Beau-frère', 'Belle-mère', 'Belle-soeur', 'Beau-frère']
+      spouse: ['Mari', 'Femme']
+      parent: ['Père', 'Mère']
+      sibling: ['Soeur', 'Frère']
 
     games:
       pokemon:

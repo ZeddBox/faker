@@ -1,19 +1,16 @@
 # Faker::Nation
 
-Available since version 1.9.0.
-
 ```ruby
 # Random Nationality
-Faker::Nation.nationality #=> "Nepalese"
+Faker::Nation.nationality #=> "Népalais"
 
 # Random National Language
-Faker::Nation.language #=> "Nepali"
+Faker::Nation.language #=> "Hindi"
 
 # Random Capital City
-Faker::Nation.capital_city #=> "Kathmandu"
-
-# Random National Sport
-Faker::Nation.national_sport #=> "dandi biyo"
+Faker::Nation.capital_city #=> "Georgetown"
 
 # Random National Flag
 Faker::Nation.flag #=> "🇫🇮"
+
+```
