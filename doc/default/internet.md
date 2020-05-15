@@ -55,8 +55,6 @@ Faker::Internet.ip_v4_cidr #=> "24.29.18.175/21"
 
 Faker::Internet.ip_v6_address #=> "ac5f:d696:3807:1d72:2eb5:4e81:7d2b:e1df"
 
-Faker::Internet.ip_v6_cidr #=> "ac5f:d696:3807:1d72:2eb5:4e81:7d2b:e1df/78"
-
 # Keyword arguments: prefix
 Faker::Internet.mac_address #=> "e6:0d:00:11:ed:4f"
 Faker::Internet.mac_address(prefix: '55:44:33') #=> "55:44:33:02:1d:9b"

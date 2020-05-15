@@ -22,13 +22,13 @@ Le contenu a été grandement amélioré
     
     - [Général](#général)
     - [Blockchain](#blockchain)
-    - [Books](#books)
+    - [Livres](#livres)
     - [Creature](#creature)
     - [Games](#games)
     - [Japanese Media](#japanese-media)
     - [Movies](#movies)
     - [Music](#music)
-    - [Quotes](#quotes)
+    - [Citations](#citations)
     - [Sports](#sports)
     - [Tv Shows](#tv-shows)
   - [Contact](#contact)
@@ -113,8 +113,6 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Hacker](doc/default/hacker.md) - **English**
   - [Faker::Hipster](doc/default/hipster.md) - Plein de mots de hipsters
   - [Faker::House](doc/default/house.md) - Meubles et pièces
-  - [Faker::IDNumber](doc/default/id_number.md)
-  - [Faker::IndustrySegments](doc/default/industry_segments.md)
   - [Faker::Internet](doc/default/internet.md)
   - [Faker::Invoice](doc/default/invoice.md)
   - [Faker::Job](doc/default/job.md)
@@ -163,7 +161,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Blockchain::Ethereum](doc/blockchain/ethereum.md)
   - [Faker::Blockchain::Tezos](doc/blockchain/tezos.md)
 
-### Books
+### Livres
   - [Faker::Book](doc/books/book.md)
   - [Faker::Books::CultureSeries](doc/books/culture_series.md)
   - [Faker::Books::Dune](doc/books/dune.md)
@@ -220,7 +218,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Music::UmphreysMcgee](doc/music/umphreys_mcgee.md)
   - [Faker::BossaNova](doc/default/bossa_nova.md) - Musique Brésilienne
 
-### Quotes
+### Citations
   - [Faker::Quote](doc/quotes/quote.md)
   - [Faker::Quotes::Chiquito](doc/quotes/chiquito.md)
   - [Faker::Quotes::Shakespeare](doc/quotes/shakespeare.md)
