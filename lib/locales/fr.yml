@@ -251,14 +251,14 @@ fr:
 
     job:
       field: [Marketing, Informatique, Comptabilité, Administration, Publicité, Banque, Services Communautaires, Construction, Conseil, Conception, Education, Agriculture, Gouvernement, Santé, Hôtellerie, Juridique, Fabrication, Marketing, Exploitation Minière, Immobilier, Vente au détail, Vente, Technologie ]
-      seniority: [ National, Regional, International, Principal, Secondaire]
+      seniority: [ National, Regional, International, Principal]
       position: [Superviseur, Executif, Manager, Ingenieur, Specialiste, Directeur, Coordinateur, Administrateur, Architecte, Analyste, Designer, Technicien, Developpeur, Producteur, Consultant, Assistant, Agent, Stagiaire]
       key_skills: [Travail d'équipe, Communication, Résolution de problèmes, Leadership, Organisation, Travail sous pression, Confiance, Motivé, Compétences de réseautage, Proactif, Apprenant rapide, Expert technique]
       employment_type: [Temps plein, Temps Partiel, Temporaire, Contrat, Stage, Commission]
       education_level: [Bachelier, Licence, Master, Doctorat]
       title:
-        - "#{position} #{seniority} #{field}"
-        - "#{position} #{seniority} #{field}"
+        - "#{seniority} #{field} #{position}"
+        - "#{seniority} #{field} #{position}"
         - "#{field} #{position}"
         - "#{field} #{position}"
         - "#{seniority} #{position}"
