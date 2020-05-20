@@ -17,7 +17,7 @@ en:
       colors: ['Rouge', 'Orange', 'Jaune', 'Vert', 'Bleu', 'Violet', 'Noir', 'Blanc', 'Gris', 'Beige']
       transmissions: ['Automatique', 'Manuelle']
       fuel_types: ['Gaz', 'Diesel', 'Sans Plomb 95', 'Electrique', 'Hybride', 'Ethanol']
-      car_types: ['Van', 'Décapotable', 'Coupe', 'Pick-up', 'Citadine', 'Berline', 'Utilitaire', 'Minibus', '4x4, 'SUV']
+      car_types: ['Van', 'Décapotable', 'Coupe', 'Pick-up', 'Citadine', 'Berline', 'Utilitaire', 'Minibus', '4x4', 'SUV']
       doors: [1, 2, 3, 4]
       engine_sizes: [4, 6, 8]
       license_plate: '??-###-??'
