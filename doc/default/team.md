@@ -16,3 +16,4 @@ Faker::Team.sport #=> "lacrosse"
 # Random Team Mascot
 Faker::Team.mascot #=> "Hugo"
 ```
+
