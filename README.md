@@ -124,7 +124,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Relationship](doc/default/relationship.md) - Famille - Belle-famille
   - [Faker::Restaurant](doc/default/restaurant.md) - Noms et types de restaurants + Descriptions et Avis
   - [Faker::Science](doc/default/science.md) - Elements en français et scientifiques connus
-  - [Faker::Vehicle](doc/default/vehicle.md)
+  - [Faker::Vehicle](doc/default/vehicle.md) - Marques, modèles, couleurs, plaques européenne 
   - [Faker::Verbs](doc/default/verbs.md)
   - [Faker::WorldCup](doc/default/world_cup.md)
 
