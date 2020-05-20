@@ -6,7 +6,7 @@ module Faker
       ALL = 'all'
       NONE = 'none'
 
-      def height(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def height(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -14,7 +14,7 @@ module Faker
         define_measurement_locale(amount, 'height')
       end
 
-      def length(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def length(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -22,7 +22,7 @@ module Faker
         define_measurement_locale(amount, 'length')
       end
 
-      def volume(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def volume(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -30,7 +30,7 @@ module Faker
         define_measurement_locale(amount, 'volume')
       end
 
-      def weight(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def weight(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -38,7 +38,7 @@ module Faker
         define_measurement_locale(amount, 'weight')
       end
 
-      def metric_height(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def metric_height(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -46,7 +46,7 @@ module Faker
         define_measurement_locale(amount, 'metric_height')
       end
 
-      def metric_length(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def metric_length(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -54,7 +54,7 @@ module Faker
         define_measurement_locale(amount, 'metric_length')
       end
 
-      def metric_volume(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def metric_volume(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
@@ -62,7 +62,7 @@ module Faker
         define_measurement_locale(amount, 'metric_volume')
       end
 
-      def metric_weight(legacy_amount = NOT_GIVEN, amount: rand(10))
+      def metric_weight(legacy_amount = NOT_GIVEN, amount: rand(1..20))
         warn_for_deprecated_arguments do |keywords|
           keywords << :amount if legacy_amount != NOT_GIVEN
         end
