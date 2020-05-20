@@ -3,44 +3,30 @@
 Available since version 1.6.4.
 
 ```ruby
-Faker::Vehicle.vin #=> "LLDWXZLG77VK2LUUF"
-
 # Random vehicle manufacturer
-Faker::Vehicle.manufacture #=> "Lamborghini"
+Faker::Vehicle.manufacture #=> "Lamborghini", "Renault", "BMW"
 
-Faker::Vehicle.make #=> "Honda"
+Faker::Vehicle.make #=> "Honda", "Audi", "Volkswagen"
 
 # Random vehicle model
 # Keyword arguments: make_of_model
-Faker::Vehicle.model #=> "A8"
-Faker::Vehicle.model(make_of_model: 'Toyota') #=> "Prius"
+Faker::Vehicle.model #=> "Twingo"
+Faker::Vehicle.model(make_of_model: 'Volkswagen') #=> "Polo"
 
 # Random vehicle make and model
-Faker::Vehicle.make_and_model #=> "Dodge Charger"
+Faker::Vehicle.make_and_model #=> "Fiat 500", "Ford Mustang"
 
 # Random vehicle color
-Faker::Vehicle.color #=> "Red"
+Faker::Vehicle.color #=> "Rouge"
 
 # Random vehicle transmission
-Faker::Vehicle.transmission #=> "Automanual"
-
-# Random vehicle drive type
-Faker::Vehicle.drive_type #=> "4x2/2-wheel drive"
+Faker::Vehicle.transmission #=> "Automatique"
 
 # Random vehicle fuel type
 Faker::Vehicle.fuel_type #=> "Diesel"
 
-# Random vehicle style
-Faker::Vehicle.style #=> "ESi"
-
 # Random car type
-Faker::Vehicle.car_type #=> "Sedan"
-
-# Random car options
-Faker::Vehicle.car_options #=> ["DVD System", "MP3 (Single Disc)", "Tow Package", "CD (Multi Disc)", "Cassette Player", "Bucket Seats", "Cassette Player", "Leather Interior", "AM/FM Stereo", "Third Row Seats"]
-
-# Random standard car specs
-Faker::Vehicle.standard_specs #=> ["Full-size spare tire w/aluminum alloy wheel", "Back-up camera", "Carpeted cargo area", "Silver accent IP trim finisher -inc: silver shifter finisher", "Back-up camera", "Water-repellent windshield & front door glass", "Floor carpeting"]
+Faker::Vehicle.car_type #=> "Utilitaire", "Citadine", "Pick-up"
 
 # Random number of doors
 Faker::Vehicle.doors #=> 1
@@ -61,11 +47,6 @@ Faker::Vehicle.mileage(min: 50_000) #=> 81557
 Faker::Vehicle.mileage(min: 50_000, max: 250_000) #=> 117503
 Faker::Vehicle.kilometrage #=> 35378
 
-# Random vehicle license plate (USA by default)
-# Keyword arguments: state_abreviation
-Faker::Vehicle.license_plate #=> "DEP-2483"
-Faker::Vehicle.license_plate(state_abreviation: 'FL') #=> "977 UNU"
-
-# Random vehicle license plate for Singapore (if locale is set)
-Faker::Vehicle.singapore_license_plate #=> "SLV1854M"
+# Random vehicle license plate (Europe plates)
+Faker::Vehicle.license_plate #=> "BD-344-TP"
 ```
