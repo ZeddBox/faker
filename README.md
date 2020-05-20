@@ -24,15 +24,16 @@ Le contenu a été grandement amélioré
     - [Livres](#livres)
     - [Creature](#creature)
     - [Games](#games)
-    - [Dessin Animés / Mangas](#dessin-Animés / Manga)
+    - [Mangas](#manga)
+    - [Dessins Animés](#dessin-animés)
     - [Films](#films)
     - [Musique](#musique)
     - [Citations](#citations)
     - [Sports](#sports)
     - [Tv Shows](#tv-shows)
   - [Contact](#contact)
-  
-  
+
+    
 
 ### NOTE
 * Faker génère des données aléatoires, il n'est pas garanti que les données soient uniques par défaut. 
@@ -152,10 +153,14 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md)
   - [Faker::Games::Zelda](doc/games/zelda.md)
 
-### Dessin Animés / Manga
+### Mangas
   - [Faker::JapaneseMedia::DragonBall](doc/japanese_media/dragon_ball.md)
   - [Faker::JapaneseMedia::OnePiece](doc/japanese_media/one_piece.md)
   - [Faker::JapaneseMedia::SwordArtOnline](doc/japanese_media/sword_art_online.md)
+
+### Dessins animés
+
+
 
 ### Films
   - [Faker::Movie](doc/movies/movie.md)
