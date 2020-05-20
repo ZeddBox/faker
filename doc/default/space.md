@@ -4,16 +4,16 @@ Available since version 1.6.4.
 
 ```ruby
 # Random planet from our Solar System
-Faker::Space.planet #=> "Venus"
+Faker::Space.planet #=> "Neptune", "Mercure"
 
 # Random moon from our Solar System
-Faker::Space.moon #=> "Europa"
+Faker::Space.moon #=> "Europe", "Deimos"
 
 # Random galaxy
-Faker::Space.galaxy #=> "Andromeda"
+Faker::Space.galaxy #=> "Voie Lactée", "Andromède"
 
 # Random nebula name
-Faker::Space.nebula #=> "Triffid Nebula"
+Faker::Space.nebula #=> "Nébuleuse du lagon", "Nébuleuse de l'haltère"
 
 # Random star cluster
 Faker::Space.star_cluster #=> "Messier 70"

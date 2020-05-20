@@ -1,11 +1,11 @@
 # Faker::Restaurant
 
 ```ruby
-Faker::Restaurant.name          #=> "Curry King"
+Faker::Restaurant.name          #=> "Guinguette du Port", "Le Restaurant Gourmand"
 
-Faker::Restaurant.type          #=> "Comfort Food"
+Faker::Restaurant.type          #=> "Français", "Vietnamien"
 
-Faker::Restaurant.description   #=> "We are committed to using the finest ingredients in our recipes. No food leaves our kitchen that we ourselves would not eat."
+Faker::Restaurant.description   #=> "Nous nous engageons à utiliser les meilleurs ingrédients dans nos recettes. Aucune nourriture ne quitte notre cuisine que nous ne mangerions nous-mêmes."
 
-Faker::Restaurant.review        #=> "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background."
+Faker::Restaurant.review        #=> "Pour le dessert, nous avons commandé des churros couverts de chocolat et ils étaient délicieux aussi! Ils sont même venus avec des fruits frais (myrtilles et fraises)."
 ```

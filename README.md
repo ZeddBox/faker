@@ -115,11 +115,6 @@ Faker::Internet.free_email #=> "  "
   - [Faker::House](doc/default/house.md) - Meubles et pièces
   - [Faker::Internet](doc/default/internet.md) - Mail, passwords, URL
   - [Faker::Job](doc/default/job.md) - Métiers
-  - 
-  - [Faker::Lorem](doc/default/lorem.md)
-  - [Faker::LoremFlickr](doc/default/lorem_flickr.md)
-  - [Faker::LoremPixel](doc/default/lorem_pixel.md)
-  - [Faker::Markdown](doc/default/markdown.md)
   - [Faker::Marketing](doc/default/marketing.md)
   - [Faker::Measurement](doc/default/measurement.md)
   - [Faker::Military](doc/default/military.md)
@@ -130,16 +125,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::PhoneNumber](doc/default/phone_number.md) - Numéro de téléphone et portable (FR)
   - [Faker::ProgrammingLanguage](doc/default/programming_language.md) **English**
   - [Faker::Relationship](doc/default/relationship.md) - Famille - Belle-famille
-  - [Faker::Restaurant](doc/default/restaurant.md)
-  - [Faker::Science](doc/default/science.md)
-  - [Faker::SlackEmoji](doc/default/slack_emoji.md)
-  - [Faker::Source](doc/default/source.md)
-  - [Faker::SouthAfrica](doc/default/south_africa.md)
-  - [Faker::Space](doc/default/space.md)
-  - [Faker::String](doc/default/string.md)
-  - [Faker::Stripe](doc/default/stripe.md)
-  - [Faker::Subscription](doc/default/subscription.md)
-  - [Faker::Superhero](doc/default/superhero.md)
+  - [Faker::Restaurant](doc/default/restaurant.md) - Noms et types de restaurants + Descriptions et Avis
+  - [Faker::Science](doc/default/science.md) - Elements en français et scientifiques connus
   - [Faker::Team](doc/default/team.md)
   - [Faker::Time](doc/default/time.md)
   - [Faker::Twitter](doc/default/twitter.md)

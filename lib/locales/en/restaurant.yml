@@ -2,128 +2,110 @@ en:
   faker:
     restaurant:
       name_prefix:
-        - "??"
-        - "???"
-        - "##"
-        - "###"
-        - "####"
-        - Belly
-        - Big
-        - Blue Plate
-        - Fast
-        - Fat
-        - Golden
-        - Hungry
-        - Salty
-        - Silver
-        - Smokestack
-        - Spice
-        - Sugar
-        - Sweet
-        - Thirsty
-        - Red
-        - Blue
-        - Green
-        - Orange
+        - Le Joufflu
+        - Rouge
+        - Bleu
+        - Vert
+        - Jaune
+        - Maigrichou
+        - Gourmand
+        - Gastronomique
+        - Rapide
+        - Assoiffé
+        - Epicé
+        - Affamé
+        - Salé
+        - Sucré
+        - du Coin
+        - du Soleil Levant
+        - Lambert
+        - Pineau
+        - Giulio
+        - du Port
       name_suffix:
-        - Bakery
-        - Bar & Grill
-        - BBQ
-        - Box
-        - Brasserie
+        - Le Restaurant
+        - Au Grill
+        - Bar
+        - Guinguette
+        - La Brasserie
         - Burger
-        - Cafe
-        - Coffee
-        - Creamery
-        - Curry
-        - Deli
-        - Diner
-        - Dragon
-        - Eatery
-        - Eats
-        - Gastropub
-        - Grill
-        - Grill & Tap
-        - House
-        - Juice Bar
-        - King
-        - Kitchen
+        - Au Café
+        - Fromagerie
         - Pizza
+        - L'Indien
+        - Le Chinois
+        - Gastropub
+        - Le Vignoble
+        - La Cave
+        - La Cuisine
+        - La Cantine
+        - La Pizzeria
         - Pub
-        - Shakes
-        - Spoon
-        - Steakhouse
-        - Subs
-        - Sushi
+        - La Fourchette
       name:
         - "#{name_prefix} #{name_suffix}"
       type:
-        - African
-        - American (New)
-        - American (Traditional)
-        - Argentinian
-        - Asian
-        - Bakery
+        - Africain
+        - Américain
+        - Argentin
+        - Asiatique
+        - Boulangerie
         - Bar
-        - Brazilian
+        - Brésilien
         - Burgers
-        - Caribbean
-        - Chinese
-        - Comfort Food
-        - Desserts
-        - Ethiopean
-        - European
-        - French
-        - German
-        - Greek
+        - Chinois
+        - Patisserie
+        - Européen
+        - Français
+        - Allemand
+        - Grec
         - Healthy
-        - Ice Cream
-        - Indian
-        - Italian
-        - Japanese
-        - Juice & Smoothies
-        - Korean
-        - Mexican
+        - Glacier
+        - Indien
+        - Italien
+        - Japonais
+        - Coréen
+        - Mexicain
         - Pizza
         - Ramen
         - Sandwiches
-        - Senegalese
-        - Sushi
+        - Sénégalais
+        - Sushis
         - Tex Mex
-        - Thai
+        - Thaï
         - Vegan
-        - Vegetarian
-        - Vietnamese
+        - Vegetarien
+        - Vietnamien
       description:
-        - "To ensure that each guest receives prompt, professional, friendly and courteous service. To maintain a clean, comfortable and well maintained premises for our guests and staff. To provide at a fair price – nutritional, well-prepared meals – using only quality ingredients. To ensure that all guests and staff are treated with the respect and dignity they deserve. To thank each guest for the opportunity to serve them. By maintaining these objectives we shall be assured of a fair profit that will allow us to contribute to the community we serve."
-        - "To sell delicious and remarkable food and drinks. That the food and drink we sell meets the highest standards of quality, freshness and seasonality and combines both modern-creative and traditional southern styles of cooking. To consistently provide our customers with impeccable service by demonstrating warmth, graciousness, efficiency, knowledge, professionalism and integrity in our work. To have every customer who comes through our doors leave impressed by Maxie’s and excited to come back again. To create and maintain a restaurant that is comprehensive and exceptional in its attention to every detail of operation. To provide all who work with us a friendly, cooperative and rewarding environment which encourages long- term, satisfying, growth employment. To keep our concept fresh, exciting and on the cutting edge of the hospitality and entertainment industry. To be a giving member of the Ithaca community and to use our restaurant to improve the quality of life in the Finger Lakes region."
-        - "We are committed to using the finest ingredients in our recipes. No food leaves our kitchen that we ourselves would not eat."
-        - "To achieve and maintain such distinction in food and wine, service, atmosphere and setting that the restaurant gains a first class reputation for gastronomy, gracious and informed hospitality, comfort and beauty which draws new and repeat customers year after year. To achieve the above whilst upholding staff policies and practices which promote a fair and positive working environment. To be aware of and act on our responsibilities as a good corporate citizen to  provide a safe, clean and attractive place for guests to enjoy and for employees to work in - ensure ecologically sound management practices at the restaurant and in our surrounding gardens and woods - undertake meaningful involvement of Restaurant Les Fougères in selected charitable activities in our community and region."
-        - "To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do."
-        - "Our Mission at Denny’s is to establish beneficial business relationships with diverse suppliers who share our commitment to customer service, quality and competitive pricing."
-        - "Yoshinoya is in business to create the structure and systems needed to allow our customers access to the majority of their away-from-home daily meal requirements on a one-stop-shop basis. All our products shall be of the highest quality and value, be healthy, nutritious and provided with outstanding personal services at the lowest possible prices consistent with a fair return on investment for our shareholders, job enhancementsecurity for our employees and a level of community involvement by everyone connected with our business. All of our products and services shall be delivered consistently and measured one satisfied customer at a time, whether by company-owned or franchised operations, in superior, clean, convenient, fun and friendly neighborhood environments. We pledge to make Yoshinoya the best place to eat and the best place to work."
-        - "Culver’s Restaurant was founded by the Culver family in 1984, which eventually branched out to more than 300 franchised restaurants all over the US. Culver’s is well-known for its ButterBurger, which made the restaurant extremely famous. They also have other items which include salads, sandwiches, desserts, etc."
-        - "Our mission is to be a leader in the distribution and merchandising of food, pharmacy, health and personal care items, seasonal merchandise, and related products and services. We place considerable importance on forging strong supplier partnerships. Our suppliers, large or small, local or global, are essential components in accomplishing our mission."
-        - "We earn the loyalty of the people we serve by first anticipating, then fulfilling their needs with our superior-quality products, a unique shopping experience, customer-focused service and continuous innovation, while generating long-term profitable growth for our shareholders."
-        - "Delhaize Group will achieve leading positions in food retailing in key mature and emerging markets. We accomplish our goal by developing strong regional companies benefiting from and contributing to the Groups strength, expertise and successful practices. Delhaize Group goes to market with a variety of food store formats. The Group is committed to offer a locally differentiated shopping experience to its customers in each of its markets, to deliver superior value and to maintain high social, environmental and ethical standards."
-        - "SVIs mission is to deliver quality products at affordable prices to our independent retailers, wholesalers and food service partners around the world by providing international procurement, distribution, marketing and supply chain management."
-        - "Our mission has been to help people achieve their health and wellness goals. though weve changed over the years, our values have remained the same."
-        - "To deliver an exceptional shopping experience by offering the best service, value, quality, and freshest products while being good stewards of our environment and giving back to the communities we serve."
+        - "Nous veillons à ce que chaque client reçoive un service rapide, professionnel, amical et courtois. Nous maintenons des locaux propres, confortables et bien entretenus pour nos clients et notre personnel. Fournir à un prix équitable - des repas nutritifs et bien préparés - en utilisant uniquement de la qualité Pour garantir que tous les invités et le personnel sont traités avec le respect et la dignité qu'ils méritent. Pour remercier chaque invité de l'opportunité de les servir. En maintenant ces objectifs, nous serons assurés d'un bénéfice équitable qui nous permettra de contribuer à la communauté que nous servons. "
+        - "Nous vendons des aliments délicieux et remarquables. Nous faisons en sorte que les aliments et les boissons que nous vendons répondent aux normes les plus élevées de qualité, de fraîcheur et de saisonnalité et combinent à la fois des styles de cuisine méridionale moderne et créative. Pour fournir constamment à nos clients un service impeccable en faire preuve de chaleur, de courtoisie, d'efficacité, de connaissances, de professionnalisme et d'intégrité dans notre travail. Faire en sorte que chaque client qui franchit nos portes parte impressionné par Maxie's et ravi de revenir. Créer et entretenir un restaurant complet et exceptionnel dans son attention à chaque détail de l'opération. Pour fournir à tous ceux qui travaillent avec nous un environnement amical, coopératif et gratifiant qui encourage l'emploi à long terme, satisfaisant et de croissance. Pour garder notre concept frais, passionnant et à la pointe de l'industrie de l'hôtellerie et du divertissement. Être un membre donateur de la communauté Ithaca et utiliser notre restaurant pour améliorer la qualité de vie dans les Finger Lakes Région."
+        - "Nous nous engageons à utiliser les meilleurs ingrédients dans nos recettes. Aucune nourriture ne quitte notre cuisine que nous ne mangerions nous-mêmes."
+        - "Pour atteindre et maintenir une telle distinction dans la nourriture et le vin, le service, l'atmosphère et le cadre que le restaurant acquiert une réputation de première classe pour la gastronomie, l'hospitalité gracieuse et informée, le confort et la beauté qui attire des clients nouveaux et fidèles année après année. ci-dessus tout en respectant les politiques et les pratiques du personnel qui favorisent un environnement de travail équitable et positif. Être conscient de nos responsabilités en tant que bonne entreprise citoyenne et agir en conséquence afin de fournir un lieu sûr, propre et attrayant pour les clients et pour les employés où travailler - assurer des pratiques de gestion écologiquement rationnelles au restaurant et dans nos jardins et bois environnants - entreprendre une implication significative du Restaurant Les Fougères dans des activités caritatives sélectionnées dans notre communauté et notre région. "
+        - "Fournir une expérience culinaire exceptionnelle qui satisfait les goûts des adultes en étant un Cut-Above dans tout ce que nous faisons."
+        - "Notre mission chez Denny’s est d’établir des relations commerciales avantageuses avec divers fournisseurs qui partagent notre engagement envers le service à la clientèle, la qualité et des prix compétitifs."
+        - "Yoshinoya est en affaires pour créer la structure et les systèmes nécessaires pour permettre à nos clients d'accéder à la majorité de leurs repas quotidiens hors foyer sur une base de guichet unique. Tous nos produits doivent être de la plus haute qualité et valeur, être en bonne santé, nutritifs et fournis avec des services personnels exceptionnels au prix le plus bas possible compatible avec un juste retour sur investissement pour nos actionnaires, une amélioration de la sécurité d'emploi pour nos employés et un niveau d'implication communautaire de tous ceux qui sont liés à notre entreprise. Tous nos produits et les services doivent être fournis de manière cohérente et mesurés un client satisfait à la fois, que ce soit par des opérations appartenant à l'entreprise ou franchisées, dans des environnements de quartier supérieurs, propres, pratiques, amusants et conviviaux. Nous nous engageons à faire de Yoshinoya le meilleur endroit pour manger et le meilleur lieu de travail. "
+        - "Culver's Restaurant a été fondé par la famille Culver en 1984, qui s'est finalement étendu à plus de 300 restaurants franchisés aux États-Unis. Culver's est bien connu pour son ButterBurger, qui a rendu le restaurant extrêmement célèbre. Ils ont également d'autres articles qui inclure des salades, des sandwichs, des desserts, etc. "
+        - «Notre mission est d'être un chef de file dans la distribution et le marchandisage d'aliments, de pharmacie, d'articles de santé et de soins personnels, de marchandises saisonnières et de produits et services connexes. Nous accordons une importance considérable à l'établissement de partenariats solides avec nos fournisseurs. Nos fournisseurs, grands ou petits , locaux ou mondiaux, sont des éléments essentiels à l'accomplissement de notre mission. "
+        - "Nous gagnons la fidélité des personnes que nous servons en anticipant d'abord, puis en répondant à leurs besoins avec nos produits de qualité supérieure, une expérience d'achat unique, un service axé sur le client et une innovation continue, tout en générant une croissance rentable à long terme pour nos actionnaires. "
+        - "Le Groupe Delhaize atteindra des positions de leader dans la vente au détail de produits alimentaires dans les principaux marchés matures et émergents. Nous atteignons notre objectif en développant de solides sociétés régionales bénéficiant de la force, de l'expertise et des pratiques réussies du Groupe. Le Groupe Delhaize va sur le marché avec une variété de formats de magasins d'alimentation. Le Groupe s'engage à offrir une expérience de magasinage différenciée localement à ses clients sur chacun de ses marchés, à offrir une valeur supérieure et à maintenir des normes sociales, environnementales et éthiques élevées. "
+        - "La mission de SVI est de fournir des produits de qualité à des prix abordables à nos détaillants indépendants, grossistes et partenaires de services alimentaires à travers le monde en assurant l'approvisionnement international, la distribution, le marketing et la gestion de la chaîne d'approvisionnement."
+        - "Notre mission a été d'aider les gens à atteindre leurs objectifs de santé et de bien-être. Bien que nous ayons changé au fil des ans, nos valeurs sont restées les mêmes."
+        - "Offrir une expérience de magasinage exceptionnelle en offrant le meilleur service, la valeur, la qualité et les produits les plus frais tout en étant de bons gardiens de notre environnement et en redonnant aux communautés que nous servons."
       review:
-        - "For dinner we ordered the shrimp enchiladas, chicken enchiladas, chicken burrito, chimichangas, and steak quesadillas. Everything was so tasty and amazing. I wasnt surprised because the food at the FiDi location is the best so I figured this location would be just as good and it was!!! The enchiladas with the green sauce is to die for. My go to at the FiDi location is usually the chicken enchiladas but I decided to try something new and the shrimp enchiladas did not disappoint."
-        - "For dessert, we ordered the chocolate drizzled churros and they were delicious too! They even came with some fresh fruit (blueberries and strawberries)."
-        - "Overall, the evening was a smash and I am so glad there is a new location closer to my office!!"
-        - "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background."
-        - "The chicken nachos were delicious and the atmosphere was great. The frozen margaritas were a little on the weak side. Would probably return for a work happy hour but was pretty disappointed about the lack of free tequila and beer we read about!"
-        - "The counter is on the left side, and so is the menu. It can get pretty busy with 30 min wait times. I recommend checking the website and see how busy their store is."
-        - "They are way understaffed, where the cashier needs to stop taking orders to help pack to-go orders. The line ends up piling up and people are neglected.  Seen this happen multiple times during lunch hours."
-        - "This particular location like the many other restaurants down the block has ample seating and a second floor."
-        - "I first heard about this place through Instagram post. The drinks looked creative so I made it a point to give it try while in the city. Located inside American Eagle in Times Square they serve up the coolest non-alcoholic beverages. You have an array of options from tea, soda, coffee, latte, water and more. Theres countertops (with phone chargers) so youre able to stand and enjoy your beverage. This visit I opted for the Pegasus latte which was not only beautiful but tasted just as good as it looked. Great staff and great service. This is a must try if you are in the area. Im sure Ill be back soon!"
-        - "Great place to stop in from a chaotic Times Square adventure! The coffee is great, the drinks are creative and the staff is very nice and hospitable. Cant wait to stop in again. Without a doubt 5 stars from me!!"
-        - "Great lattes and cold drinks as well. Nice to see a place carrying local coffee and products in Times Square! Excited to make it a part of my morning commute as it is much less crowded than the chain coffee shops around here."
-        - "Fish was high quality but portions were small. $57 for 9 pieces and a hand roll which is fair but on the expensive side."
-        - "Ambience was good, service was no nonsense but friendly."
-        - "Id have to say that each piece was fresh and had their own slight unique flavor twist to it, pushing the line between traditional edomae and fusion. The Hokkaido uni and the ocean trout topped with cook seaweed was the highlights of the meal. But each piece served was really something special."
-        - "Staff was very accommodating but the chef were no nonsense. The ambiance is clean and tranquil which is perfect if youre looking to have a conversation with a date or a friend."
-        - "My only critique would be that the rice could of used more vingaer and for them to use real wasabi. Also the variety of fish in stock wasnt a lot but hopefully that can change over time. The cost justify the quality youre getting. A solid 4 stars."
-        - "In terms of omakase, they had a few options but the one we chose was the 87 dollar version which include sashimi and sushi."
+        - "Pour le dîner, nous avons commandé les enchiladas aux crevettes, les enchiladas au poulet, le burrito au poulet, les chimichangas et les quesadillas au steak. Tout était si savoureux et incroyable."
+        - "Pour le dessert, nous avons commandé des churros couverts de chocolat et ils étaient délicieux aussi! Ils sont même venus avec des fruits frais (myrtilles et fraises)."
+        - "Dans l'ensemble, la soirée a été un succès et je suis tellement contente qu'il y ait un nouvel emplacement plus près de mon bureau !!"
+        - "Nouvelle enseigne. Design chelou. Bizarre d'entendre de la musique pop dans un établissement mexicain. La musique est un peu bruyante. Elle devrait être un fond."
+        - "Les nachos au poulet étaient délicieux et l'ambiance était géniale. Les margaritas congelées étaient pas top. Je reviendrais probablement pour un happy hour de travail mais j'ai été assez déçu du manque de tequila et de bière gratuites dont nous avons lu!"
+        - "Le comptoir est sur le côté gauche, tout comme le menu. Il peut être assez occupé avec 30 minutes d'attente. Je recommande de consulter le site Web et de voir à quel point leur magasin est occupé."
+        - "Ils sont en sous-effectif, où le caissier doit cesser de prendre des commandes pour aider à emballer les commandes à emporter. La ligne finit par s'empiler et les gens sont négligés. Cela se produit plusieurs fois pendant les heures de déjeuner."
+        - "Cet endroit particulier, comme les nombreux autres restaurants du quartier, a de nombreux sièges et un deuxième étage."
+        - "J'ai entendu parler de cet endroit pour la première fois par le biais d'Instagram. Les boissons avaient l'air créatives, je me suis donc fait un devoir de l'essayer en ville. Situées à l'intérieur de American Eagle à Times Square, elles servent les boissons non alcoolisées les plus cool. Vous avez une gamme d'options de thé, de soda, de café, de latte, d'eau et plus encore. Il y a des comptoirs (avec des chargeurs de téléphone) pour que vous puissiez vous tenir debout et profiter de votre boisson. Cette visite, j'ai opté pour le latte Pegasus qui était non seulement bon mais aussi très beau. Personnel super et excellent service. C'est un must si vous êtes dans la région. Je suis sûr que je reviendrai bientôt! "
+        - "Super endroit pour s'arrêter après une aventure chaotique de Times Square! Le café est super, les boissons sont créatives et le personnel est très gentil et hospitalier. J'ai hâte de m'arrêter à nouveau. Sans aucun doute 5 étoiles de moi !!"
+        - "De bons cafés au lait et des boissons fraîches également. C'est agréable de voir un endroit qui transporte du café et des produits locaux à Times Square! Ravi de faire partie de mon trajet du matin car il est beaucoup moins bondé que les chaînes de cafés ici."
+        - "Le poisson était de haute qualité mais les portions étaient petites. 57 $ pour 9 pièces et un rouleau à main qui est juste mais cher."
+        - "L'ambiance était bonne, le service n'était pas absurde mais sympathique."
+        - "Je dois dire que chaque morceau était frais et avait sa propre touche de saveur unique, repoussant la ligne entre les edomae traditionnels et la fusion. L'uniforme Hokkaido et la truite de mer garnie d'algues cuites étaient les points forts du repas. Mais chaque morceau servi était vraiment quelque chose de spécial. "
+        - "Le personnel était très arrangeant mais le chef n'était pas absurde. L'ambiance est propre et tranquille, ce qui est parfait si vous cherchez à avoir une conversation avec un rendez-vous ou un ami."
+        - "Ma seule critique serait que le riz pourrait utiliser plus de vingaer et pour eux d'utiliser du vrai wasabi. De plus, la variété de poisson en stock n'était pas beaucoup mais j'espère que cela peut changer avec le temps. Le coût justifie la qualité que vous obtenez. solide 4 étoiles. "
+        - "En termes d'omakase, ils avaient quelques options mais celle que nous avons choisie était la version à 87 dollars qui comprend du sashimi et des sushis."

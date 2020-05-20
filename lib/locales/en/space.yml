@@ -1,10 +1,10 @@
 en:
   faker:
     space:
-      planet: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
-      moon: ['Moon', 'Luna', 'Deimos', 'Phobos', 'Ganymede', 'Callisto', 'Io', 'Europa', 'Titan', 'Rhea', 'Iapetus', 'Dione', 'Tethys', 'Hyperion', 'Ariel', 'Puck', 'Oberon', 'Umbriel', 'Triton', 'Proteus']
-      galaxy: ['Milky Way', 'Andromeda', 'Triangulum', 'Whirlpool', 'Blackeye', 'Sunflower', 'Pinwheel', 'Hoags Object', 'Centaurus A', 'Messier 83']
-      nebula: ['Lagoon Nebula', 'Eagle Nebula', 'Triffid Nebula', 'Dumbell Nebula', 'Orion Nebula', 'Ring Nebula', 'Bodes Nebula', 'Owl Nebula']
+      planet: ['Mercure', 'Vénus', 'Terre', 'Mars', 'Jupiter', 'Saturne', 'Uranus', 'Neptune']
+      moon: ['Lune', 'Luna', 'Deimos', 'Phobos', 'Ganymede', 'Callisto', 'Io', 'Europe', 'Titan', 'Rhea', 'Iapetus', 'Dione', 'Tethys', 'Hyperion', 'Ariel', 'Puck', 'Oberon', 'Umbriel', 'Triton', 'Proteus']
+      galaxy: ['Voie lactée', 'Andromède', 'Triangulum', 'Whirlpool', 'Blackeye', 'Tournesol', 'Pinwheel', 'Hoags Object', 'Centaurus A', 'Messier 83']
+      nebula: ['Nébuleuse du lagon', 'Nébuleuse de l'aigle', 'Nébuleuse trifide', 'Nébuleuse de l'haltère', 'Nébuleuse d'Orion', 'Nébuleuse de l'anneau', 'Nébuleuse de Bode', 'Nébuleuse du hibou']
       star_cluster: ['Wild Duck', 'Hyades', 'Coma', 'Butterfly', 'Messier 7', 'Pleiades', 'Beehive Cluster', 'Pearl Cluster', 'Hodge 301', 'Jewel Box Cluster', 'Wishing Well Cluster', 'Diamond Cluster', 'Trumpler 10', 'Collinder 140', 'Liller 1', 'Koposov II', 'Koposov I', 'Djorgovski 1', 'Arp-Madore 1', 'NGC 6144', 'NGC 2808', 'NGC 1783', 'Messier 107', 'Messier 70', 'Omega Centauri', 'Palomar 12', 'Palomar 4', 'Palomar 6', 'Pyxis Cluster', 'Segue 3']
       constellation: ['Big Dipper', 'Litte Dipper', 'Orion', 'Leo', 'Gemini', 'Cancer', 'Canis Minor', 'Canis Major', 'Ursa Major', 'Ursa Minor', 'Virgo', 'Libra', 'Scorpius', 'Sagittarius', 'Lyra', 'Capricornus', 'Aquarius', 'Pisces', 'Aries', 'Leo Minor', 'Auriga']
       star: ['Sun', 'Proxima Centauri', 'Rigil Kentaurus', 'Barnards Star', 'Wolf 359', 'Luyten 726-8A', 'Luyten 726-8B', 'Sirius A', 'Sirius B', 'Ross 154', 'Ross 248', 'Procyon A', 'Procyon B', 'Vega', 'Rigel', 'Arcturus', 'Betelgeuse', 'Mahasim', 'Polaris']
