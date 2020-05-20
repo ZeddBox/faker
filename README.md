@@ -117,7 +117,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Job](doc/default/job.md) - Métiers
   - [Faker::Marketing](doc/default/marketing.md)
   - [Faker::Measurement](doc/default/measurement.md)
-  - [Faker::Military](doc/default/military.md)
+  - [Faker::Military](doc/default/military.md) - Armée de Terre, Air, Marine
   - [Faker::Name](doc/default/name.md) - Noms / Prénoms
   - [Faker::FunnyName](doc/default/funny_name.md) - Prénom/Nom rigolo
   - [Faker::Nation](doc/default/nation.md) - Pays - Capital - Langue et Drapeau (Emoji)
@@ -127,10 +127,6 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Relationship](doc/default/relationship.md) - Famille - Belle-famille
   - [Faker::Restaurant](doc/default/restaurant.md) - Noms et types de restaurants + Descriptions et Avis
   - [Faker::Science](doc/default/science.md) - Elements en français et scientifiques connus
-  - [Faker::Time](doc/default/time.md)
-  - [Faker::Twitter](doc/default/twitter.md)
-  - [Faker::Types](doc/default/types.md)
-  - [Faker::University](doc/default/university.md)
   - [Faker::Vehicle](doc/default/vehicle.md)
   - [Faker::Verbs](doc/default/verbs.md)
   - [Faker::WorldCup](doc/default/world_cup.md)

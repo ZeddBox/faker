@@ -9,3 +9,4 @@ Faker::Restaurant.description   #=> "Nous nous engageons à utiliser les meilleu
 
 Faker::Restaurant.review        #=> "Pour le dessert, nous avons commandé des churros couverts de chocolat et ils étaient délicieux aussi! Ils sont même venus avec des fruits frais (myrtilles et fraises)."
 ```
+

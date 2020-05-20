@@ -1,13 +1,11 @@
 # Faker::Military
 
 ```ruby
-Faker::Military.army_rank #=> "Staff Sergeant"
+# Armée de Terre
+Faker::Military.army_rank #=> "Lieutenant", "Caporal"
+# Armée de la Marine nationale
+Faker::Military.marines_rank #=> "Quartier-maître", "Colonel"
+# Armée de L'air
+Faker::Military.air_force_rank #=> "Aviateur", "Lieutenant-Colonel"
 
-Faker::Military.marines_rank #=> "Gunnery Sergeant"
-
-Faker::Military.navy_rank #=> "Seaman"
-
-Faker::Military.air_force_rank #=> "Captain"
-
-Faker::Military.dod_paygrade #=> "E-6"
 ```
