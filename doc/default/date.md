@@ -1,5 +1,7 @@
 # Faker::Date
 
+Possibilité d'utiliser [.strftime](https://apidock.com/ruby/DateTime/strftime) pour modifier l'ordre de vos dates
+
 ```ruby
 # Random date between dates
 # Keyword arguments: from, to
