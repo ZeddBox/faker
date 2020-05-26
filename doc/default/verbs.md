@@ -1,14 +1,10 @@
 # Faker::Verb
 
 ```ruby
-Faker::Verb.base #=> "hurt"
+Faker::Verb.base #=> "conduire", "vider", "inscrire"
 
-Faker::Verb.past #=> "completed"
+Faker::Verb.past #=> "jeté", "évadé", "blessé"
 
-Faker::Verb.past_participle #=> "digested"
-
-Faker::Verb.simple_present #=> "climbs"
-
-Faker::Verb.ing_form #=> "causing"
+Faker::Verb.simple_present #=> "détache", "cherche", "respire"
 ```
 

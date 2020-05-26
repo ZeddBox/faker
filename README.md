@@ -2,9 +2,9 @@
 
 ***
 
-## AVANCEMENT ENVIRON 33 %
+## AVANCEMENT ENVIRON 50 %
 
-![progress](https://progress-bar.dev/33/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/50/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 **❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
@@ -15,27 +15,26 @@ La langue principale a été modifiée pour être le **français**.
 Le contenu a été grandement amélioré
 
 - Sommaire
-  - [NOTE](#note)
-  - [Installation](#installing)
-  - [Usage](#usage)
-  - [Générateur](#generators)
+  - [Présentation](#presentation) 
+  - [Générateur](#générateur)
     
     - [Général](#général)
     - [Livres](#livres)
     - [Creature](#creature)
     - [Games](#games)
-    - [Mangas](#manga)
-    - [Dessins Animés](#dessin-animés)
+    - [Mangas](#mangas)
+    - [Dessins Animés](#dessins-animés)
     - [Films](#films)
     - [Musique](#musique)
     - [Citations](#citations)
     - [Sports](#sports)
     - [Tv Shows](#tv-shows)
   - [Contact](#contact)
-
+  
     
 
-### NOTE
+## PRESENTATION
+
 * Faker génère des données aléatoires, il n'est pas garanti que les données soient uniques par défaut. 
 * Ceci est un fork de la version **2.11** de **Faker**, il est possible qu'un problème de compatibilité apparaisse un jour, n'hésitez pas à me contacter à ce moment là.
 
@@ -75,7 +74,10 @@ Faker::Name.name      #=> "Nathan Renaud"
 Faker::Internet.free_email #=> "  "
 ```
 
-## Generators
+
+
+## Générateur
+
 **NOTE : Lorsqu'il n'y a pas de contenu en français, le générateur passera automatiquement en Anglais.**
 **La liste complète du contenu Anglais est consultable sur la gem [Faker](https://github.com/faker-ruby/faker)**
 
@@ -125,8 +127,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Restaurant](doc/default/restaurant.md) - Noms et types de restaurants + Descriptions et Avis
   - [Faker::Science](doc/default/science.md) - Elements en français et scientifiques connus
   - [Faker::Vehicle](doc/default/vehicle.md) - Marques, modèles, couleurs, plaques européenne 
-  - [Faker::Verbs](doc/default/verbs.md)
-  - [Faker::WorldCup](doc/default/world_cup.md)
+  - [Faker::Verbs](doc/default/verbs.md) - Verbes infinitif, présent et participe passé 
 
 ### Livres
   - [Faker::Book](doc/books/book.md)
