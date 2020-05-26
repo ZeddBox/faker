@@ -28,7 +28,7 @@ module Faker
       #
       # @faker.version 1.9.3
       def author
-        parse('book.author')
+        fetch('book.author')
       end
 
       ##

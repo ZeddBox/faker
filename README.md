@@ -130,10 +130,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Verbs](doc/default/verbs.md) - Verbes infinitif, présent et participe passé 
 
 ### Livres
-  - [Faker::Book](doc/books/book.md)
-  - [Faker::Books::CultureSeries](doc/books/culture_series.md)
-  - [Faker::Books::Dune](doc/books/dune.md)
-  - [Faker::Books::Lovecraft](doc/books/lovecraft.md)
+  - [Faker::Book](doc/books/book.md) - Titres, auteurs, éditions et citations
 
 ### Creature
   - [Faker::Creature::Animal](doc/creature/animal.md)

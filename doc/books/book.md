@@ -2,14 +2,14 @@
 
 ```ruby
 # Random Book Title
-Faker::Book.title #=> "The Odd Sister"
+Faker::Book.title #=> "Le Hobbit", "Les Misérables"
 
 # Random Author
-Faker::Book.author #=> "Alysha Olsen"
+Faker::Book.author #=> "J.R.R. Tolkien", "Honoré de Balzac"
 
 # Random Publisher
-Faker::Book.publisher #=> "Opus Reader"
+Faker::Book.publisher #=> "Hachette"
 
-# Random Genre
-Faker::Book.genre #=> "Mystery"
+# Random Quotes
+Faker::Book.quote #=> "L’habit ne fait pas le moine", "Couvrez ce sein que je ne saurais voir"
 ```
