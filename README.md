@@ -2,9 +2,9 @@
 
 ***
 
-## AVANCEMENT ENVIRON 50 %
+## AVANCEMENT ENVIRON 60 %
 
-![progress](https://progress-bar.dev/50/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/60/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 **❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
