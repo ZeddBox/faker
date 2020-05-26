@@ -100,7 +100,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Construction](doc/default/construction.md) - Métiers et matériaux du bâtiment
   - [Faker::Currency](doc/default/currency.md) - Différentes monnaies
   - [Faker::Date](doc/default/date.md) - **English**
-  - [Faker::Demographic](doc/default/demographic.md) - Nationalité, Race, Genre
+  - [Faker::Demographic](doc/default/demographic.md) - Nationalité, Genre
   - [Faker::Dessert](doc/default/dessert.md) - Type de dessert et goûts
   - [Faker::Device](doc/default/device.md) - Marque, modèle et OS de smartphone
   - [Faker::Educator](doc/default/educator.md) - Lycée, Universités, Matières

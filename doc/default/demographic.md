@@ -3,8 +3,6 @@
 Available since version 1.7.3.
 
 ```ruby
-Faker::Demographic.race #=> "Asiatique", "Noir ou afro-américain"
-
 Faker::Demographic.educational_attainment #=> "Aucune scolarité terminée", "Baccalauréat"
 
 Faker::Demographic.demonym #=> "Indien", "Serbe"
