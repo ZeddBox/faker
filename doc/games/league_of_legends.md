@@ -3,15 +3,15 @@
 Available since version 1.8.0.
 
 ```ruby
-Faker::Games::LeagueOfLegends.champion #=> "Jarvan IV"
+Faker::Games::LeagueOfLegends.champion #=> "Jarvan IV", "Fizz"
 
-Faker::Games::LeagueOfLegends.location #=> "Demacia"
+Faker::Games::LeagueOfLegends.location #=> "Demacia", "Noxus", "Îles Obscures"
 
-Faker::Games::LeagueOfLegends.quote #=> "Purge the unjust."
+Faker::Games::LeagueOfLegends.quote #=> "Mundo va où il veut"
 
-Faker::Games::LeagueOfLegends.summoner_spell #=> "Flash"
+Faker::Games::LeagueOfLegends.summoner_spell #=> "Châtiment", "Embrasement"
 
-Faker::Games::LeagueOfLegends.masteries #=> "Double Edged Sword"
+Faker::Games::LeagueOfLegends.masteries #=> "Mastodonte", "Démoniste", "Destructeur"
 
-Faker::Games::LeagueOfLegends.rank #=> "Bronze V"
+Faker::Games::LeagueOfLegends.rank #=> "Bronze V", "Or II", "Grandmaster"
 ```
