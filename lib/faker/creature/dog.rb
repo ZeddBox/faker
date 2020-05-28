@@ -29,7 +29,7 @@ module Faker
         #
         # @faker.version 1.9.2
         def race
-          fetch('creature.dog.breed')
+          fetch('creature.dog.race')
         end
 
         ##
