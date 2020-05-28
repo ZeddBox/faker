@@ -13,8 +13,8 @@ module Faker
           fetch('oss117.locations')
         end
 
-        def quote
-          fetch('oss117.marvin_quotes')
+        def quotes
+          fetch('oss117.quotes')
         end
 
       end
