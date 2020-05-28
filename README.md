@@ -142,9 +142,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Game](doc/games/game.md) - Jeux, genres et plateformes
   - [Faker::Games::ElderScrolls](doc/games/elder_scrolls.md) - Créatures, régions, villes, noms prénoms
   - [Faker::Games::LeagueOfLegends](doc/games/league_of_legends.md) - Champions, régions, masteries, rank, quotes
-  - [Faker::Games::Overwatch](doc/games/overwatch.md)
   - [Faker::Games::Pokemon](doc/games/pokemon.md) - Noms, lieux et attaques
-  - [Faker::Games::SuperSmashBros](doc/games/super_smash_bros.md)
+  - [Faker::Games::SuperSmashBros](doc/games/super_smash_bros.md) - Personnages et stages
   - [Faker::Games::Witcher](doc/games/witcher.md)
   - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md)
   - [Faker::Games::Zelda](doc/games/zelda.md)

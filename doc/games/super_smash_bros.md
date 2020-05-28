@@ -1,11 +1,9 @@
 # Faker::Games::SuperSmashBros
 
-Data up to date as of October 2018, preceding any final announcements on *Super Smash Bros. Ultimate*.
-
 ```ruby
 # Any playable fighter from the series
-Faker::Games::SuperSmashBros.fighter #=> "Simon Belmont"
+Faker::Games::SuperSmashBros.fighter #=> "Yoshi", "Marth"
 
 # Any stage from the series
-Faker::Games::SuperSmashBros.stage #=> "Temple"
+Faker::Games::SuperSmashBros.stage #=> "Temple", "Stade Pokemon"
 ```
