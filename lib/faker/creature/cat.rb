@@ -41,7 +41,7 @@ module Faker
         #   Faker::Creature::Cat.registry #=> "Fancy Southern Africa Cat Council"
         #
         # @faker.version 1.9.2
-      def image(legacy_grayscale = NOT_GIVEN, legacy_width = NOT_GIVEN, legacy_height = NOT_GIVEN, grayscale: false, width: random(280..320), height: random(280..320))
+      def image(legacy_grayscale = NOT_GIVEN, legacy_width = NOT_GIVEN, legacy_height = NOT_GIVEN, grayscale: false, width: 300, height: 300)
         warn_for_deprecated_arguments do |keywords|
           keywords << :grayscale if legacy_grayscale != NOT_GIVEN
           keywords << :width if legacy_width != NOT_GIVEN
