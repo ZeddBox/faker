@@ -4,14 +4,17 @@
 # Random cat name
 Faker::Creature::Cat.name #=> "Caramel", "Popsy", "Felix"
 
-# Random cat breed
+# Random cat race
 Faker::Creature::Cat.race #=> "Ocicat" ,"Persian", "Norvégien"
 
 # Random cat image
 # Keyword arguments: grayscale, width, height
 
-Faker::Creature::Cat.image #=> "http://placekitten.com/300/300" - Random image between 280px and 320px
-Faker::Creature::Cat.image(grayscale: true) #=> "http://placekitten.com/g/300/300"
+# => Random image between 250px and 350px
+Faker::Creature::Cat.image #=> "http://placekitten.com/250/350" - 
+Faker::Creature::Cat.image(grayscale: true) #=> "http://placekitten.com/g/250/350" 
+
+# => Specific size (only 1 image per size)
 Faker::Creature::Cat.image(grayscale: false, width: 200, height: 400) #=> "http://placekitten.com/200/400" 
 ```
 

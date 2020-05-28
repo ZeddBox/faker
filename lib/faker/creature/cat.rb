@@ -49,7 +49,7 @@ module Faker
         end
 
         "http://placekitten.com#{'/g' if grayscale == true}/#{width}/#{height}"
-      end
+        end
       end
     end
   end

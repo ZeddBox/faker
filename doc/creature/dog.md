@@ -2,16 +2,10 @@
 
 ```ruby
 # Random dog name
-Faker::Creature::Dog.name #=> "Spike"
+Faker::Creature::Dog.name #=> "Noisette", "Cookie", "Marley"
 
-# Random dog breed
-Faker::Creature::Dog.breed #=> "Yorkshire Terrier"
-
-# Random dog sound
-Faker::Creature::Dog.sound #=> "woof woof"
-
-# Random dog meme phrase
-Faker::Creature::Dog.meme_phrase #=> "smol pupperino"
+# Random dog race
+Faker::Creature::Dog.race #=> "Husky"
 
 # Random dog age
 Faker::Creature::Dog.age #=> "puppy"
@@ -19,9 +13,16 @@ Faker::Creature::Dog.age #=> "puppy"
 # Random dog gender
 Faker::Creature::Dog.gender #=> "female"
 
-# Random dog coat length
-Faker::Creature::Dog.coat_length #=> "short"
-
 # Random dog size
 Faker::Creature::Dog.size #=> "small"
+
+# Random dog image
+# Keyword arguments: grayscale, width, height
+
+# => Random image between 250px and 350px
+Faker::Creature::Dog.image #=> "https://placedog.net/250/350" - 
+Faker::Creature::Dog.image(grayscale: true) #=> "https://placedog.net/250/350/g" 
+
+# => Specific size (only 1 image per size)
+Faker::Creature::Dog.image(grayscale: false, width: 200, height: 400) #=> "https://placedog.net/200/400" 
 ```

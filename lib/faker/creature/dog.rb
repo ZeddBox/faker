@@ -28,7 +28,7 @@ module Faker
         #   Faker::Creature::Dog.breed #=> "Yorkshire Terrier"
         #
         # @faker.version 1.9.2
-        def breed
+        def race
           fetch('creature.dog.breed')
         end
 
@@ -39,32 +39,6 @@ module Faker
         #
         # @example
         #   Faker::Creature::Dog.sound #=> "woof woof"
-        #
-        # @faker.version 1.9.2
-        def sound
-          fetch('creature.dog.sound')
-        end
-
-        ##
-        # Produces a random dog meme phrase
-        #
-        # @return [String]
-        #
-        # @example
-        #   Faker::Creature::Dog.meme_phrase #=> "smol pupperino"
-        #
-        # @faker.version 1.9.2
-        def meme_phrase
-          fetch('creature.dog.meme_phrase')
-        end
-
-        ##
-        # Produces a random dog age
-        #
-        # @return [String]
-        #
-        # @example
-        #   Faker::Creature::Dog.age #=> "puppy"
         #
         # @faker.version 1.9.2
         def age
@@ -93,22 +67,24 @@ module Faker
         #   Faker::Creature::Dog.coat_length #=> "short"
         #
         # @faker.version 1.9.2
-        def coat_length
-          fetch('creature.dog.coat_length')
-        end
-
-        ##
-        # Produces a random size of a dog
-        #
-        # @return [String]
-        #
-        # @example
-        #   Faker::Creature::Dog.size #=> "small"
-        #
-        # @faker.version 1.9.2
         def size
           fetch('creature.dog.size')
         end
+        
+        ##
+        # Produces a random image of dogs and
+
+        def image(legacy_grayscale = NOT_GIVEN, legacy_width = NOT_GIVEN, legacy_height = NOT_GIVEN, grayscale: false, width: rand(280..320), height: rand(280..320))
+          warn_for_deprecated_arguments do |keywords|
+            keywords << :grayscale if legacy_grayscale != NOT_GIVEN
+            keywords << :width if legacy_width != NOT_GIVEN
+            keywords << :height if legacy_height != NOT_GIVEN
+          end
+  
+          "https://placedog.net/#{width}/#{height}#{'/g' if grayscale == true}"
+          end
+        end
+
       end
     end
   end
