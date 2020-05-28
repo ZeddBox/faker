@@ -4,12 +4,14 @@
 
 Faker::Games::Witcher.character # => "Triss Merigold"
 
-Faker::Games::Witcher.witcher # => "Geralt of Rivia"
+Faker::Games::Witcher.witcher # => "Geralt de Riv"
 
 Faker::Games::Witcher.location # => "Novigrad"
 
-Faker::Games::Witcher.school # => "Wolf"
+Faker::Games::Witcher.school # => "Ecole du Loup"
 
-Faker::Games::Witcher.quote # => "No Lollygagin'!"
+Faker::Games::Witcher.quote # => "Espèce de citadin va ! La viande pourrie, le fumier, la pisse ... Tout ça ce sont les bonnes odeurs de la campagne."
 
-Faker::Games::Witcher.monster # => "Katakan"
+Faker::Games::Witcher.monster # => "Troll", "Draugr"
+
+```
