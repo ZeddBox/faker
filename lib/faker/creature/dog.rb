@@ -82,7 +82,6 @@ module Faker
           end
   
           "https://placedog.net/#{width}/#{height}#{'/g' if grayscale == true}"
-          end
         end
 
       end

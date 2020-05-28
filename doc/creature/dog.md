@@ -11,10 +11,10 @@ Faker::Creature::Dog.race #=> "Husky", "Beagle", "Labrador"
 Faker::Creature::Dog.age #=> "Chiot", "Adulte"
 
 # Random dog gender
-Faker::Creature::Dog.gender #=> "Masculin", "Féminin"
+Faker::Creature::Dog.gender #=> "Femelle", "Mâle"
 
 # Random dog size
-Faker::Creature::Dog.size #=> "small"
+Faker::Creature::Dog.size #=> "Petit", "Moyen"
 
 # Random dog image
 # Keyword arguments: grayscale, width, height
