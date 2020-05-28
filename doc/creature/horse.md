@@ -1,7 +1,8 @@
 # Faker::Creature::Horse
 
 ```ruby
-Faker::Creature::Horse.name #=> "Noir"
+Faker::Creature::Horse.name #=> "Galaxie", "Tournesol", "Cerise"
 
-Faker::Creature::Horse.breed #=> "Spanish Barb see Barb Horse"
+Faker::Creature::Horse.breed #=> "Shetland", "Pur Sang Arabe"
 ```
+

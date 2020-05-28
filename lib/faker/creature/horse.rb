@@ -28,8 +28,8 @@ module Faker
         #   Faker::Creature::Horse.breed #=> "Spanish Barb see Barb Horse"
         #
         # @faker.version 1.9.2
-        def breed
-          fetch('creature.horse.breed')
+        def race
+          fetch('creature.horse.race')
         end
       end
     end

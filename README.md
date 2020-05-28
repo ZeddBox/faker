@@ -136,7 +136,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Creature::Animal](doc/creature/animal.md) - Noms d'animaux
   - [Faker::Creature::Cat](doc/creature/cat.md) - Noms, races et images de chats
   - [Faker::Creature::Dog](doc/creature/dog.md) - Noms, races, taille, genre et images de chiens
-  - [Faker::Creature::Horse](doc/creature/horse.md)
+  - [Faker::Creature::Horse](doc/creature/horse.md) - Noms et races
 
 ### Games
   - [Faker::Game](doc/games/game.md)
