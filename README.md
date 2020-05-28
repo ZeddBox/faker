@@ -133,8 +133,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Book](doc/books/book.md) - Titres, auteurs, éditions et citations
 
 ### Creature
-  - [Faker::Creature::Animal](doc/creature/animal.md)
-  - [Faker::Creature::Cat](doc/creature/cat.md)
+  - [Faker::Creature::Animal](doc/creature/animal.md) - Noms d'animaux
+  - [Faker::Creature::Cat](doc/creature/cat.md) - Noms, races et images de chats
   - [Faker::Creature::Dog](doc/creature/dog.md)
   - [Faker::Creature::Horse](doc/creature/horse.md)
 

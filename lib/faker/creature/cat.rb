@@ -28,12 +28,12 @@ module Faker
         #   Faker::Creature::Cat.breed #=> "Scottish Fold"
         #
         # @faker.version 1.9.2
-        def breed
-          fetch('creature.cat.breed')
+        def race
+          fetch('creature.cat.race')
         end
 
         ##
-        # Produces a random cat breed registry
+        # Produces a random cat image with 
         #
         # @return [String]
         #
@@ -41,9 +41,19 @@ module Faker
         #   Faker::Creature::Cat.registry #=> "Fancy Southern Africa Cat Council"
         #
         # @faker.version 1.9.2
-        def registry
-          fetch('creature.cat.registry')
+      def image(legacy_grayscale = NOT_GIVEN, legacy_width = NOT_GIVEN, legacy_height = NOT_GIVEN, grayscale: false, width: [280..320].sample, height: [280..320].sample)
+        warn_for_deprecated_arguments do |keywords|
+          keywords << :grayscale if legacy_grayscale != NOT_GIVEN
+          keywords << :width if legacy_width != NOT_GIVEN
+          keywords << :height if legacy_height != NOT_GIVEN
         end
+
+        raise ArgumentError, 'Width should be a number' unless width.to_s =~ /^\d+$/
+        raise ArgumentError, 'Height should be a number' unless height.to_s =~ /^\d+$/
+        raise ArgumentError, 'Grayscale should be a boolean' unless [true, false].include?(grayscale)
+
+        "http://placekitten.com#{'/g' if grayscale == true}/#{width}/#{height}"
+      end
       end
     end
   end

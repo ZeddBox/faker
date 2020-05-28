@@ -1,14 +1,17 @@
-# Faker::Creature::Cat
-
-Available since version 1.6.2.
+# Faker::Creature::Cat 
 
 ```ruby
 # Random cat name
-Faker::Creature::Cat.name #=> "Shadow"
+Faker::Creature::Cat.name #=> "Caramel", "Popsy", "Felix"
 
 # Random cat breed
-Faker::Creature::Cat.breed #=> "British Semipi-longhair"
+Faker::Creature::Cat.race #=> "Ocicat" ,"Persian", "Norvégien"
 
-# Random cat registry
-Faker::Creature::Cat.registry #=> "American Cat Fanciers Association"
+# Random cat image
+# Keyword arguments: grayscale, width, height
+
+Faker::Creature::Cat.image #=> "http://placekitten.com/300/300" - Random image between 280px and 320px
+Faker::Creature::Cat.image(grayscale: true) #=> "http://placekitten.com/g/300/300"
+Faker::Creature::Cat.image(grayscale: false, width: 200, height: 400) #=> "http://placekitten.com/200/400" 
 ```
+
