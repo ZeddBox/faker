@@ -2,9 +2,9 @@
 
 ***
 
-## AVANCEMENT ENVIRON 60 %
+## AVANCEMENT ENVIRON 75 %
 
-![progress](https://progress-bar.dev/60/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/75/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 **❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
 
@@ -140,12 +140,10 @@ Faker::Internet.free_email #=> "  "
 
 ### Games
   - [Faker::Game](doc/games/game.md)
-  - [Faker::Games::Dota](doc/games/dota.md)
   - [Faker::Games::ElderScrolls](doc/games/elder_scrolls.md)
-  - [Faker::Games::Heroes](doc/games/heroes.md)
   - [Faker::Games::LeagueOfLegends](doc/games/league_of_legends.md)
   - [Faker::Games::Overwatch](doc/games/overwatch.md)
-  - [Faker::Games::Pokemon](doc/games/pokemon.md)
+  - [Faker::Games::Pokemon](doc/games/pokemon.md) - Noms, lieux et attaques
   - [Faker::Games::SuperSmashBros](doc/games/super_smash_bros.md)
   - [Faker::Games::Witcher](doc/games/witcher.md)
   - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md)
