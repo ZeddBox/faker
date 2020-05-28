@@ -8,5 +8,5 @@ Faker::Game.title #=> "Half-Life", "Dofus", "World of Warcraft"
 Faker::Game.genre #=> "First-person shooter (FPS)", "Hack'n'Slash"
 
 # Random Game Platform
-Faker::Game.platform #=> "Nintendo DS"
+Faker::Game.platform #=> "Nintendo DS", "Playstation 4"
 ```

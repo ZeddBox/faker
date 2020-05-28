@@ -139,8 +139,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Creature::Horse](doc/creature/horse.md) - Noms et races
 
 ### Games
-  - [Faker::Game](doc/games/game.md)
-  - [Faker::Games::ElderScrolls](doc/games/elder_scrolls.md)
+  - [Faker::Game](doc/games/game.md) - Jeux, genres et plateformes
+  - [Faker::Games::ElderScrolls](doc/games/elder_scrolls.md) - Créatures, régions, villes, noms prénoms
   - [Faker::Games::LeagueOfLegends](doc/games/league_of_legends.md)
   - [Faker::Games::Overwatch](doc/games/overwatch.md)
   - [Faker::Games::Pokemon](doc/games/pokemon.md) - Noms, lieux et attaques
