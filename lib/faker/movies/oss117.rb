@@ -2,7 +2,7 @@
 
 module Faker
   class Movies
-    class HitchhikersGuideToTheGalaxy < Base
+    class Oss117 < Base
       class << self
         ##
         # Produces a character from The Hitchhiker's Guide to the Galaxy.
@@ -14,7 +14,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def character
-          fetch('hitchhikers_guide_to_the_galaxy.characters')
+          fetch('oss117.characters')
         end
 
         ##
@@ -28,7 +28,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def location
-          fetch('hitchhikers_guide_to_the_galaxy.locations')
+          fetch('oss117.locations')
         end
 
         ##
@@ -41,8 +41,8 @@ module Faker
         #     #=> "Life? Don't talk to me about life."
         #
         # @faker.version 1.8.0
-        def marvin_quote
-          fetch('hitchhikers_guide_to_the_galaxy.marvin_quote')
+        def quote
+          fetch('oss117.marvin_quote')
         end
 
         ##
@@ -56,7 +56,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def planet
-          fetch('hitchhikers_guide_to_the_galaxy.planets')
+          fetch('oss117.planets')
         end
 
         ##
@@ -70,7 +70,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def quote
-          fetch('hitchhikers_guide_to_the_galaxy.quotes')
+          fetch('oss117.quotes')
         end
 
         ##
@@ -84,7 +84,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def specie
-          fetch('hitchhikers_guide_to_the_galaxy.species')
+          fetch('oss117.species')
         end
 
         ##
@@ -98,7 +98,7 @@ module Faker
         #
         # @faker.version 1.8.0
         def starship
-          fetch('hitchhikers_guide_to_the_galaxy.starships')
+          fetch('oss117.starships')
         end
       end
     end
