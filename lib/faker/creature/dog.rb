@@ -55,7 +55,7 @@ module Faker
         #
         # @faker.version 1.9.2
         def gender
-          Faker::Gender.binary_type
+          ["Femelle", "Mâle"].sample
         end
 
         ##

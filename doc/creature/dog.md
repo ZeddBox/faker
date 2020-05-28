@@ -5,13 +5,13 @@
 Faker::Creature::Dog.name #=> "Noisette", "Cookie", "Marley"
 
 # Random dog race
-Faker::Creature::Dog.race #=> "Husky"
+Faker::Creature::Dog.race #=> "Husky", "Beagle", "Labrador"
 
 # Random dog age
-Faker::Creature::Dog.age #=> "puppy"
+Faker::Creature::Dog.age #=> "Chiot", "Adulte"
 
 # Random dog gender
-Faker::Creature::Dog.gender #=> "female"
+Faker::Creature::Dog.gender #=> "Masculin", "Féminin"
 
 # Random dog size
 Faker::Creature::Dog.size #=> "small"
