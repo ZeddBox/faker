@@ -7,6 +7,9 @@ Faker::Creature::Cat.name #=> "Caramel", "Popsy", "Felix"
 # Random cat race
 Faker::Creature::Cat.race #=> "Ocicat" ,"Persian", "Norvégien"
 
+# Random dog gender
+Faker::Creature::Cat.gender #=> "Femelle", "Mâle"
+
 # Random cat image
 # Keyword arguments: grayscale, width, height
 

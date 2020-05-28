@@ -20,6 +20,19 @@ module Faker
         end
 
         ##
+        # Produces a random gender
+        #
+        # @return [String]
+        #
+        # @example
+        #   Faker::Creature::Dog.gender #=> "Female"
+        #
+        # @faker.version 1.9.2
+        def gender
+          ["Femelle", "Mâle"].sample
+        end
+        
+        ##
         # Produces a random cat breed
         #
         # @return [String]
