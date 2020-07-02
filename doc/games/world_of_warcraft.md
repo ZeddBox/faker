@@ -1,9 +1,13 @@
 # Faker::Games::WorldOfWarcraft
 
 ```ruby
-# Generate random character from the World of Warcraft
-Faker::Games::WorldOfWarcraft.hero #=> "Uther the Lightbringer"
+# Personnage aléatoire du monde de World of Warcraft
+Faker::Games::WorldOfWarcraft.hero #=> "Onyxia", "Brann Barbe-de-bronze"
 
-# Generate random quote from the World of Warcraft
-Faker::Games::WorldOfWarcraft.quote #=> "These are dark times indeed."
+# Citation aléatoire de personnage non joueur de World of Warcraft
+Faker::Games::WorldOfWarcraft.quote #=> "Le temps c'est de l'argent"
+
+# Zone aléatoire de World of Warcraft
+Faker::Games::WorldOfWarcraft.quote #=> "Darnassus", "Mulgore", "Nagrand"
 ```
+

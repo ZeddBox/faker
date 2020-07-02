@@ -29,6 +29,18 @@ module Faker
         def quote
           fetch('games.world_of_warcraft.quotes')
         end
+        ##
+        # Produces a zone from World of Warcraft.
+        #
+        # @return [String]
+        #
+        # @example
+        #   Faker::Games::WorldOfWarcraft.quote #=> "These are dark times indeed."
+        #
+        # @faker.version 1.9.2
+        def quote
+          fetch('games.world_of_warcraft.zone')
+        end
       end
     end
   end

@@ -145,7 +145,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Games::Pokemon](doc/games/pokemon.md) - Noms, lieux et attaques
   - [Faker::Games::SuperSmashBros](doc/games/super_smash_bros.md) - Personnages et stages
   - [Faker::Games::Witcher](doc/games/witcher.md) - Noms, lieux, citations, bestiaire
-  - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md)
+  - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md) - Noms, citations, zones
   - [Faker::Games::Zelda](doc/games/zelda.md)
 
 ### Mangas

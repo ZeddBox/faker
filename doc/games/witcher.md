@@ -12,6 +12,6 @@ Faker::Games::Witcher.school # => "Ecole du Loup"
 
 Faker::Games::Witcher.quote # => "Espèce de citadin va ! La viande pourrie, le fumier, la pisse ... Tout ça ce sont les bonnes odeurs de la campagne."
 
-Faker::Games::Witcher.monster # => "Troll", "Draugr"
+ # => "Troll", "Draugr"
 
 ```
