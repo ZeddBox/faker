@@ -6,8 +6,6 @@
 
 ![progress](https://progress-bar.dev/75/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
-**❌ EN CAS D'ERREUR, MERCI DE ME REMONTER L'INFORMATION ET SA RESOLUTION SI POSSIBLE AFIN DE COMPLETER LE README ❌**
-
 Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
 La langue principale a été modifiée pour être le **français**. 
@@ -85,7 +83,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Address](doc/default/address.md) - Adresses française
   - [Faker::Ancient](doc/default/ancient.md) - Mythologie Grecque
   - [Faker::Appliance](doc/default/appliance.md) - Grandes Marques et divers produits électroménager /  
-  - [Faker::Artist](doc/default/artist.md) - Peintres
+  - [Faker::Artist](doc/default/artist.md) - Peintres, Peintures
   - [Faker::Avatar](doc/default/avatar.md) - Générateur d'avatar (type robot) aléatoire
   - [Faker::Bank](doc/default/bank.md) - Banques françaises, RIB, etc. 
   - [Faker::Beer](doc/default/beer.md) - J'ai vraiment besoin d'expliquer ?
@@ -120,7 +118,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Name](doc/default/name.md) - Noms / Prénoms
   - [Faker::FunnyName](doc/default/funny_name.md) - Prénom/Nom rigolo
   - [Faker::Nation](doc/default/nation.md) - Pays - Capital - Langue et Drapeau (Emoji)
-  - [Faker::Number](doc/default/number.md) - **English**
+  - [Faker::Number](doc/default/number.md) - Génère des nombres avec ou sans virgule et plus..
   - [Faker::PhoneNumber](doc/default/phone_number.md) - Numéro de téléphone et portable (FR)
   - [Faker::ProgrammingLanguage](doc/default/programming_language.md) **English**
   - [Faker::Relationship](doc/default/relationship.md) - Famille - Belle-famille
