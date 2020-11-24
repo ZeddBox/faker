@@ -144,12 +144,11 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Games::SuperSmashBros](doc/games/super_smash_bros.md) - Personnages et stages
   - [Faker::Games::Witcher](doc/games/witcher.md) - Noms, lieux, citations, bestiaire
   - [Faker::Games::WorldOfWarcraft](doc/games/world_of_warcraft.md) - Noms, citations, zones
-  - [Faker::Games::Zelda](doc/games/zelda.md), Jeux, lieux, objets, personnages
+  - [Faker::Games::Zelda](doc/games/zelda.md) - Jeux, lieux, objets, personnages
 
 ### Mangas
-  - [Faker::JapaneseMedia::DragonBall](doc/japanese_media/dragon_ball.md)
-  - [Faker::JapaneseMedia::OnePiece](doc/japanese_media/one_piece.md)
-  - [Faker::JapaneseMedia::SwordArtOnline](doc/japanese_media/sword_art_online.md)
+  - [Faker::JapaneseMedia::DragonBall](doc/japanese_media/dragon_ball.md) - Personnages
+  - [Faker::JapaneseMedia::OnePiece](doc/japanese_media/one_piece.md) - Personnages, lieux, mers, citations, akuma no mi
 
 ### Dessins animés
 
