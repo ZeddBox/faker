@@ -152,7 +152,7 @@ Faker::Internet.free_email #=> "  "
 
 ### Dessins animés
 
-
+  - [Faker::DessinAnime::Disney](doc/dessinanime/disney.md) - Films, citations et personnages
 
 ### Films
   - [Faker::Movie](doc/movies/movie.md)

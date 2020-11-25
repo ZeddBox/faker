@@ -1,0 +1,7 @@
+en:
+  faker:
+    dessinanime:
+      disney:
+        film: ["La Petite Sirène"]
+        quote: ["Hakuna Matata"]
+        charater: ["Polochon"]
