@@ -155,7 +155,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::DessinAnime::Disney](doc/dessinanime/disney.md) - Films, citations et personnages
 
 ### Films
-  - [Faker::Movie](doc/movies/movie.md)
+  - [Faker::Movie](doc/movies/movie.md) - Citations aléatoire de film
   - [Faker::Movies::BackToTheFuture](doc/movies/back_to_the_future.md)
   - [Faker::Movies::Oss117](doc/movies/oss117.md) - Personnages & Citations
   - [Faker::Movies::HarryPotter](doc/movies/harry_potter.md)
