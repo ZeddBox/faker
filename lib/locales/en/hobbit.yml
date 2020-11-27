@@ -1,19 +1,18 @@
 en:
   faker:
     hobbit:
-      character: ["Bilbo Baggins", "Bungo Baggins", "Belladonna Took", "Bullroarer Took", "Gandalf The Grey", "Radagast", "Dain", "Thorin Oakenshield", "Fili", "Kili", "Balin", "Dwalin", "Oin", "Gloin", "Dori", "Nori", "Ori", "Bifur", "Bofur", "Bombur", "Elrond", "Galion", "Bard the Bowman", "Beorn", "Tom", "Bert", "William (Bill Huggins)", "Gollum", "The Necromancer", "Smaug", "Carc", "Roac", "The Lord of the Eagles", "The Great Goblin", "Bolg", "Golfimbul"]
-      thorins_company: ["Thorin Oakenshield", "Fili", "Kili", "Balin", "Dwalin", "Oin", "Gloin", "Dori", "Nori", "Ori", "Bifur", "Bofur", "Bombur", "Gandalf", "Bilbo Baggins"]
+      character: ["Bilbon Sacquet", "Alfrid", "Azog", "Gandalf Le Gris", "Balin", "Beorn", "Bifur", "Bofur", "Bolg", "Bombur", "Bain", "Dori", "Dwalin", "Elrond", "Fili", "Ori", "Bifur", "Bofur", "Bombur", "Elrond", "Galadriel", "Gloin", "Gollum", "Kili", "Legolas", "Nori", "Ori", "Radagast", "Smaug", "Sauron", "Sigrid", "Tauriel", "Thorin Ecu-de-Chêne", "Thranduil", "Thrór", "Óin"]
+      thorins_company: ["Thorin Ecu-de-Chêne", "Balin", "Bifur", "Bofur", "Bombur", "Dori", "Dwalin", "Fíli", "Glóin", "Kíli", "Nori", "Óin", "Ori", "Gandalf Le Gris", "Bilbon Sacquet"]
       quote: [
-       "Do you wish me a good morning, or mean that it is a good morning whether I want it or not; or that you feel good this morning; or that it is a morning to be good on?",
-       "There is nothing like looking, if you want to find something. You certainly usually find something, if you look, but it is not always quite the something you were after.",
-       "In a hole in the ground there lived a hobbit.",
-       "It does not do to leave a live dragon out of your calculations, if you live near him.",
-       "May the wind under your wings bear you where the sun sails and the moon walks.",
-       "Where there's life there's hope.",
-       "So comes snow after fire, and even dragons have their endings.",
-       "Where did you go to, if I may ask?' said Thorin to Gandalf as they rode along.  To look ahead,' said he.  And what brought you back in the nick of time?' Looking behind,' said he.",
-       "'You have nice manners for a thief and a liar,' said the dragon.",
-       "May the hair on your toes never fall out!",
-       "The road goes ever on and on",
-       "Never laugh at live dragons, Bilbo you fool!" ]
-      location: ["Bree", "The Shire", "Rivendell", "The Misty Mountains", "Beorn's Hall", "Mirkwood", "Esgaroth", "Erebor", "Bag-End", "Under-Hill", "Mount Gram", "Green Fields", "Last Desert", "Lonely Mountain", "Withered Heath", "Country Round", "Long Lake", "River Running", "Mines of Moria", "Green Dragon Inn", "Bywater", "The Great Mill", "Wilderland", "Gondolin", "Land Beyond", "Goblin Gate", "Carrock", "High Pass", "Great River", "Grey Mountains", "Land of the Necromancer", "Long Marshes", "Forest River", "Lake Town", "Dorwinion", "Ravenhill", "Iron Hills", "Mount Gundabad"]
+       "Dans un trou vivait un hobbit. Ce n'était pas un trou déplaisant, sale et humide, rempli de bouts de vers et d'une atmosphère suintante, non plus qu'un trou sec, nu, sablonneux, sans rien pour s'asseoir ni sur quoi manger : c'était un trou de hobbit, ce qui implique le confort.",
+       "Rien ne vaut la recherche lorsqu'on veut trouver quelque chose",
+       "Il ne faut jamais se moquer des dragons vivants, Bilbo, pauvre idiot !",
+       "Ce doit être la victoire, après tout ! Mais il semble que ce soit une bien morne affaire.",
+       "Si un plus grand nombre d'entre nous préféraient la nourriture, la gaieté et les chansons aux entassements d'or, le monde serait plus rempli de joie.",
+       "vous n'êtes, après tout, qu'un minuscule individu dans le vaste monde.",
+       "C’est peut-être parce que j’ai peur, et qu’il me donne du courage.",
+       "Si nous voulons réussir, nous devrons faire preuve de tact, de respect et d’une bonne dose de charme. C’est pourquoi vous devrez me laisser parler, moi !!",
+       "Mon chère Frodon, tu m’as demandé un jour si je t’avais tout raconté de mes aventures. Bien que je puisse affirmer t’avoir dit la vérité, je ne t’ai peut-être pas tout dit.",
+       "Rappelez vous Bilbon, le vrai courage n’est pas de savoir quand supprimer une vie, mais quand en épargner une.",
+       "Par ici pauvres fous !",
+       "Je suis le feu. Je suis.. la Mort." ]

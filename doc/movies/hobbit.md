@@ -4,12 +4,10 @@ Available since version 1.8.0.
 
 ```ruby
 # Any character from the book
-Faker::Movies::Hobbit.character #=> "Gandalf the Grey"
+Faker::Movies::Hobbit.character #=> "Bilbon Sacquet", "Azog"
 
-# One of the 13 dwarves from the Company, or Gandalf, or Bilbo
-Faker::Movies::Hobbit.thorins_company #=> "Thorin Oakenshield"
+# Un des 13 nains de la compagnie, Gandalf ou Bilbo
+Faker::Movies::Hobbit.thorins_company #=> "Thorin Ecu-de-Chêne"
 
-Faker::Movies::Hobbit.quote #=> "Never laugh at live dragons, Bilbo you fool!"
-
-Faker::Movies::Hobbit.location #=> "The Shire"
+Faker::Movies::Hobbit.quote #=> "Il ne faut jamais se moquer des dragons vivants, Bilbo, pauvre idiot !", "Je suis le feu. Je suis.. la Mort."
 ```
