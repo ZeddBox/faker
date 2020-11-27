@@ -162,7 +162,6 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Movies::Hobbit](doc/movies/hobbit.md) - Personnages, Nains de la compagnie, citations
   - [Faker::Movies::LordOfTheRings](doc/movies/lord_of_the_rings.md) - Personnages, lieux, citations
   - [Faker::Movies::StarWars](doc/movies/star_wars.md)
-  - [Faker::Movies::VForVendetta](doc/movies/v_for_vendetta.md)
 
 ### Musique
   - [Faker::Music](doc/music/music.md)

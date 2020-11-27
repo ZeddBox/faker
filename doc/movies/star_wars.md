@@ -3,15 +3,9 @@
 Available since version 1.6.2.
 
 ```ruby
-Faker::Movies::StarWars.call_squadron #=> "Green"
+Faker::Movies::StarWars.character #=> "Anakin Skywalker", "Boba Fett"
 
-Faker::Movies::StarWars.call_sign #=> "Grey 5"
-
-Faker::Movies::StarWars.call_number #=> "Leader"
-
-Faker::Movies::StarWars.character #=> "Anakin Skywalker"
-
-Faker::Movies::StarWars.droid #=> "C-3PO"
+Faker::Movies::StarWars.droid #=> "C-3PO", "BB-8"
 
 Faker::Movies::StarWars.planet #=> "Tatooine"
 
