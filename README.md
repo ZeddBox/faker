@@ -2,9 +2,9 @@
 
 ***
 
-## AVANCEMENT ENVIRON 75 %
+## AVANCEMENT ENVIRON 85 %
 
-![progress](https://progress-bar.dev/75/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
+![progress](https://progress-bar.dev/85/?scale=100&title=Progress&width=300&color=babaca&suffix=%)
 
 Ce repository est un fork de la gem [Faker](https://github.com/faker-ruby/faker)
 
