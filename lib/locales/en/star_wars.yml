@@ -6,7 +6,7 @@ en:
       planets: ["Endor", "Naboo", "Kashyyyk", "Tatooine", "Dagobah", "Alderaan", "Coruscant", "Crait", "Ach To", "Etoile de la Mort", "Yavin IV", "Mustafar", "Hoth", "Jakku", "Bespin", "Geonosis", "Kamino", "Wobani", "Balmorra", "Bespin", "Corellia", "Dantooine", "Dathomir", "Dromund Kaas", "Eadu", "Felucia", "Mandalore", "Naboo", "Ord Mantell", "Scarif", "Taris"]
       species: ["Ewok", "Ardennien", "Besalisk", "Bith", "Céréen", "Jawa", "Clawdite", "Defil", "Dug", "Wookiee", "Duro", "Farghul", "Humain", "Gamorréen", "Géonosien", "Twi'lek", "Gossam", "Gorax", "Gran", "Gungan", "Hutt", "Ithorien", "Jawa", "Kaleesh", "Kaminoan", "Kel Dor", "Lanai", "Mon Calamari", "Nautolan", "Ortolan", "Quarren", "Rakata", "Rodien", "Selkath", "Skakoan", "Sullustain", "Toong", "Toydarien", "Tusken", "Utai", "Zabrak"]
       vehicles: ["TB-TT", "TS-TT", "Speeder de Rey", "Landspeeder", "Ski-Speeder", "TIE/FO", "TIE/SF", "X-Wing T-70", "Cobalt Hammer", "Faucon Millenium", "Libertine", "Nacelle de Transport de la Résistance", "Navette de classe Upsilon, "Transpoteur U-55", "Anadyne", "Vigil", "Croiseur de Combat", "Cuirassé de Siège", "Finalizer", "Bongo", "Char des sables", "Hailfire", "RT-TT", "Moto-roue", "Airspeeder", "Canonnière TIO/BA", "Char d'Assaut Blindé", "Koro-2", "Podracer", "XJ-6 Hot Rod", "Naboo N-1", "Chasseur Nantex", "Intercepteur Delta-7", "Slave I", "Voilier SOlaire Punworcca", "Nef Royale Type J-327", "Vaisseau-Noyau", "Radiant VII", "Main Invisible", "Etoile de la Mort", "Speeder des neiges T-47", "A-Wing RZ-1", "B-Wing", "Bombardier TIE", "Intercepteur TIE", "X-Wing T-65", "Y-Wing BTL", "Devastator"]
-      wookiee_words: ["Wyaaaaaa. Ruh ruh.", "Awa", "Yo Agaaha", "Yaag", "Muawa", "Ohh Haa", "Wuaahh", "Muaahhh", "Hur Oh", "Oid", "Yurinal", "Hrrrrnnnn", "Muaargaa", "Gwyaaaag", "Roooarrgh"]
+      wookiee_words: ["wyaaaaaa. Ruh ruh.", "awa", "yo agaaha", "yaag", "muawa", "ohh Haa", "wuaahh", "muaahhh", "hur oh", "oid", "hrrrrnnnn", "muaargaa", "gwyaaaag", "roooarrgh"]
       quotes:
         amiral_ackbar:
           - "It's a trap!"
@@ -99,7 +99,7 @@ en:
         boba_fett: ['boba fett', 'bobafett', 'boba_fett']
         c_3po: ['c 3po', 'c3po', 'c3p0', 'c_3po']
         count_dooku: ['dooku', 'count dooku', 'count_dooku']
-        darth_vader: ['vader', 'darth vader', 'darth_vader']
+        darth_vader: ['vador', 'dark vador', 'dark_vador']
         empereur_palpatine: ['empereur', 'l'empereur', 'palpatine', 'senateur palpatine', 'dark sidious', 'sidious']
         han_solo: ['han', 'solo', 'han solo', 'general han solo', 'general solo', 'han_solo']
         jabba_the_hutt: ['jabba', 'jabba the hut', 'jabba the hutt', 'jabba_the_hutt']

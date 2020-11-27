@@ -9,13 +9,13 @@ Faker::Movies::StarWars.droid #=> "C-3PO", "BB-8"
 
 Faker::Movies::StarWars.planet #=> "Tatooine"
 
-Faker::Movies::StarWars.quote #=> "Aren’t you a little short for a Stormtrooper?"
+Faker::Movies::StarWars.quote #=> ""Quand 900 ans comme moi tu auras, moins en forme tu seras !""
 
-Faker::Movies::StarWars.quote(character: "leia_organa") #=> "Aren’t you a little short for a Stormtrooper?"
+Faker::Movies::StarWars.quote(character: "dark_vador") #=> Luke, Je suis ton père!"
 
-Faker::Movies::StarWars.specie #=> "Gungan"
+Faker::Movies::StarWars.specie #=> "Gungan", "Twi'Lek"
 
-Faker::Movies::StarWars.vehicle #=> "Sandcrawler"
+Faker::Movies::StarWars.vehicle #=> "Podracer", "Ski-Speeder"
 
-Faker::Movies::StarWars.wookiee_sentence #=> "Yrroonn ru ooma roo ahuma ur roooarrgh hnn-rowr."
+Faker::Movies::StarWars.wookiee_sentence #=> "Wyaaaaaa. Ruh ruh. Yo agaaha roooarrgh muaargaa."
 ```
