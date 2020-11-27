@@ -156,9 +156,9 @@ Faker::Internet.free_email #=> "  "
 
 ### Films
   - [Faker::Movie](doc/movies/movie.md) - Citations aléatoire de film
-  - [Faker::Movies::BackToTheFuture](doc/movies/back_to_the_future.md)
+  - [Faker::Movies::BackToTheFuture](doc/movies/back_to_the_future.md) - Peronnages, dates & citations
   - [Faker::Movies::Oss117](doc/movies/oss117.md) - Personnages & Citations
-  - [Faker::Movies::HarryPotter](doc/movies/harry_potter.md)
+  - [Faker::Movies::HarryPotter](doc/movies/harry_potter.md) - Personnages, citations, lieux, livres, sorts, maisons
   - [Faker::Movies::Hobbit](doc/movies/hobbit.md)
   - [Faker::Movies::Lebowski](doc/movies/lebowski.md)
   - [Faker::Movies::LordOfTheRings](doc/movies/lord_of_the_rings.md)
