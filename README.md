@@ -164,10 +164,8 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Movies::StarWars](doc/movies/star_wars.md) - Personnages, planètes, citations, phrase de wookie, espèces, droïdes, véhicules
 
 ### Musique
-  - [Faker::Music](doc/music/music.md)
-  - [Faker::Music::GratefulDead](doc/music/grateful_dead.md)
-  - [Faker::Music::Opera](doc/music/opera.md)
-  - [Faker::Music::RockBand](doc/music/rock_band.md)
+  - [Faker::Music](doc/music/music.md) - Instruments, artistes, albums, genre musical
+  - [Faker::Music::RockBand](doc/music/rock_band.md) - **English** - Groupes de Rock
   - [Faker::BossaNova](doc/default/bossa_nova.md) - Musique Brésilienne
   - [Faker::Kpop](doc/default/kpop.md)
 

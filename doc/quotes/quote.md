@@ -15,3 +15,4 @@ Faker::Quote.singular_siegler #=> "Texas!"
 
 Faker::Quote.yoda #=> "Use your feelings, Obi-Wan, and find him you will."
 ```
+
