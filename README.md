@@ -161,7 +161,7 @@ Faker::Internet.free_email #=> "  "
   - [Faker::Movies::HarryPotter](doc/movies/harry_potter.md) - Personnages, citations, lieux, livres, sorts, maisons
   - [Faker::Movies::Hobbit](doc/movies/hobbit.md) - Personnages, Nains de la compagnie, citations
   - [Faker::Movies::LordOfTheRings](doc/movies/lord_of_the_rings.md) - Personnages, lieux, citations
-  - [Faker::Movies::StarWars](doc/movies/star_wars.md)
+  - [Faker::Movies::StarWars](doc/movies/star_wars.md) - Personnages, planètes, citations, phrase de wookie, espèces, droïdes, véhicules
 
 ### Musique
   - [Faker::Music](doc/music/music.md)

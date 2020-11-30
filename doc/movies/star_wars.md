@@ -19,3 +19,4 @@ Faker::Movies::StarWars.vehicle #=> "Podracer", "Ski-Speeder"
 
 Faker::Movies::StarWars.wookiee_sentence #=> "Wyaaaaaa. Ruh ruh. Yo agaaha roooarrgh muaargaa."
 ```
+
