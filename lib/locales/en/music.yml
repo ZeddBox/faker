@@ -1,7 +1,7 @@
 en:
   faker:
     music:
-      instruments: ['Electric Guitar', 'Acoustic Guitar', 'Flute', 'Trumpet', 'Clarinet', 'Cello', 'Harp', 'Xylophone', 'Harmonica', 'Accordion', 'Organ', 'Piano', 'Ukelele', 'Saxophone', 'Drums', 'Violin', 'Bass Guitar', 'Oboe']
+      instruments: ['Guitare électrique', 'Guitare Acoustique', 'Flute', 'Trompette', 'Clarinette', 'Violoncelle', 'Harpe', 'Xylophone', 'Harmonica', 'Accordéon', 'Orgue', 'Piano', 'Ukulélé', 'Saxophone', 'Batterie', 'Violon', 'Basse', 'Hautbois', "Contrebasse"]
       bands: ["AC/DC", "Adam and the Ants", "Afrika Bambaataa", "Al Foster", "Alan Parsons", "Alex Chilton", "Amy Winehouse", "Annie Lennox", "Arctic Monkeys", "B.B. King",
       "Bauhaus", "The Beatles", "Beck", "Billy Idol", "The Birthday Party", "Björk", "Blinker The Star", "Blondie", "Blur", "Bob Dylan", "Bob Marley (and the Wailers)",
       "Brian Wilson", "Bruce Springsteen", "Buzzcocks", "Captain Beefheart", "Carlos Santana", "Cat Anderson", "Cat Stevens", "Catherine Wheel", "Chic", "Chris Isaak",
@@ -29,4 +29,4 @@ en:
       "Dookie", "Can't Slow Down", "Daydream", "HIStory: Past, Present and Future, Book I", "Off the Wall", "The Woman in Me", "Breakfast in America", "Tracy Chapman",
       "Flashdance: Original Soundtrack from the Motion Picture", "Whitney", "Confessions", "X&Y", "High School Musical", "High School Musical 2", "Viva la Vida or Death and All His Friends",
       "I Dreamed a Dream", "Recovery", "Midnight Memories", "Frozen", "Lemonade", "Brand New Eyes", "All We Know Is Falling", "Riot!", "Songs About Jane", "Hands All Over"]
-      genres: ["Rock", "Pop", "Electronic", "Folk", "World", "Country", "Jazz", "Funk", "Soul", "Hip Hop", "Classical", "Latin", "Reggae", "Stage And Screen", "Blues", "Non Music", "Rap"]
+      genres: ["Rock", "Pop", "Electro", "Drum'n'Bass", "Variété", "Country", "Jazz", "Funk", "Soul", "Hip Hop", "Classique", "Latine", "Reggae", "Dub", "Métal", "Lofi", "Blues", "Non Music", "Rap"]
